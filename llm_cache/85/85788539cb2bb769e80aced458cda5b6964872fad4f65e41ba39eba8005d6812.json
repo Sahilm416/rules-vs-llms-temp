@@ -1,0 +1,11 @@
+{
+ "tag": "dq-renamed_dropped_column",
+ "model": "gemini-3.5-flash-lite",
+ "attempt": 0,
+ "text": "{\n  \"alert\": true,\n  \"columns\": [\"resolution\"],\n  \"observed\": \"resolution\",\n  \"expected\": \"resolution_description\",\n  \"reason\": \"The column resolution_description appears to have been renamed to resolution in the batch columns.\"\n}",
+ "finish_reason": "STOP",
+ "input_tokens": 1040,
+ "output_tokens": 59,
+ "latency_s": 1.056,
+ "recorded_at": "2026-11-06T21:02:35+0530"
+}

@@ -1,0 +1,11 @@
+{
+ "tag": "dq-pii_in_text",
+ "model": "gemini-3.5-flash-lite",
+ "attempt": 0,
+ "text": "{\n  \"flagged\": []\n}",
+ "finish_reason": "STOP",
+ "input_tokens": 2043,
+ "output_tokens": 10,
+ "latency_s": 1.384,
+ "recorded_at": "2026-11-06T21:07:37+0530"
+}

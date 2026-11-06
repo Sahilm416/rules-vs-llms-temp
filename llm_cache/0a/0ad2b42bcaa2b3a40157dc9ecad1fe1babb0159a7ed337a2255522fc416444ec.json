@@ -1,0 +1,11 @@
+{
+ "tag": "parse",
+ "model": "gemini-3.5-flash-lite",
+ "attempt": 0,
+ "text": "{\n  \"gross_salary\": {\n    \"status\": \"value\",\n    \"evidence\": \"20 LPA\",\n    \"rupees_per_year\": 2000000\n  },\n  \"age\": {\n    \"status\": \"value\",\n    \"evidence\": \"Umar 40 saal\",\n    \"age_band\": \"below_60\"\n  },\n  \"basic_da\": {\n    \"status\": \"unknown\",\n    \"evidence\": \"\"\n  },\n  \"hra_received\": {\n    \"status\": \"none\",\n    \"evidence\": \"Baaki kuch nahi.\"\n  },\n  \"rent_paid\": {\n    \"status\": \"none\",\n    \"evidence\": \"Baaki kuch nahi.\"\n  },\n  \"sec_80c\": {\n    \"status\": \"none\",\n    \"evidence\": \"Baaki kuch nahi.\"\n  },\n  \"sec_80ccd1b\": {\n    \"status\": \"conflict\",\n    \"evidence\": \"NPS mein 50 hazaar dalta hu, NPS hai hi nahi mera.\"\n  },\n  \"sec_80d_self\": {\n    \"status\": \"none\",\n    \"evidence\": \"Baaki kuch nahi.\"\n  },\n  \"sec_80d_parents\": {\n    \"status\": \"none\",\n    \"evidence\": \"Baaki kuch nahi.\"\n  },\n  \"home_loan_interest\": {\n    \"status\": \"none\",\n    \"evidence\": \"Baaki kuch nahi.\"\n  },\n  \"city\": \"\",\n  \"parents_senior\": \"unknown\",\n  \"unsupported_income_or_status\": false,\n  \"unsupported_evidence\": \"\",\n  \"clarify_topics\": [\n    \"conflict\"\n  ]\n}",
+ "finish_reason": "STOP",
+ "input_tokens": 670,
+ "output_tokens": 416,
+ "latency_s": 2.178,
+ "recorded_at": "2026-11-06T20:52:09+0530"
+}

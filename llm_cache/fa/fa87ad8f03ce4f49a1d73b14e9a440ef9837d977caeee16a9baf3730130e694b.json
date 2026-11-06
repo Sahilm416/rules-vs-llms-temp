@@ -1,0 +1,11 @@
+{
+ "tag": "parse",
+ "model": "gemini-3.5-flash-lite",
+ "attempt": 0,
+ "text": "{\n  \"gross_salary\": {\n    \"status\": \"value\",\n    \"evidence\": \"Annual gross 15,00,000\",\n    \"rupees_per_year\": 1500000\n  },\n  \"age\": {\n    \"status\": \"value\",\n    \"evidence\": \"age 27\",\n    \"age_band\": \"below_60\"\n  },\n  \"basic_da\": {\n    \"status\": \"value\",\n    \"evidence\": \"basic+DA 7,50,000\",\n    \"rupees_per_year\": 750000\n  },\n  \"hra_received\": {\n    \"status\": \"value\",\n    \"evidence\": \"HRA 3,00,000\",\n    \"rupees_per_year\": 300000\n  },\n  \"rent_paid\": {\n    \"status\": \"value\",\n    \"evidence\": \"Rent 25k per month\",\n    \"rupees_per_year\": 300000\n  },\n  \"sec_80c\": {\n    \"status\": \"value\",\n    \"evidence\": \"80C 80,000\",\n    \"rupees_per_year\": 80000\n  },\n  \"sec_80ccd1b\": {\n    \"status\": \"none\",\n    \"evidence\": \"no NPS\"\n  },\n  \"sec_80d_self\": {\n    \"status\": \"none\",\n    \"evidence\": \"no medical insurance\"\n  },\n  \"sec_80d_parents\": {\n    \"status\": \"none\",\n    \"evidence\": \"no medical insurance\"\n  },\n  \"home_loan_interest\": {\n    \"status\": \"none\",\n    \"evidence\": \"no home loan\"\n  },\n  \"city\": \"Bengaluru\",\n  \"parents_senior\": \"unknown\",\n  \"unsupported_income_or_status\": false,\n  \"unsupported_evidence\": \"\",\n  \"clarify_topics\": []\n}",
+ "finish_reason": "STOP",
+ "input_tokens": 715,
+ "output_tokens": 493,
+ "latency_s": 1.992,
+ "recorded_at": "2026-11-06T20:48:09+0530"
+}

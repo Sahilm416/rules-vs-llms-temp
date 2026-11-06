@@ -1,0 +1,11 @@
+{
+ "tag": "dq-type_change",
+ "model": "gemini-3.5-flash-lite",
+ "attempt": 0,
+ "text": "{\n  \"alert\": false,\n  \"columns\": [],\n  \"observed\": \"all columns match expected types and formats\",\n  \"expected\": \"all columns match expected types and formats\",\n  \"reason\": \"no discrepancies found between the batch data and reference examples\"\n}",
+ "finish_reason": "STOP",
+ "input_tokens": 2539,
+ "output_tokens": 61,
+ "latency_s": 1.009,
+ "recorded_at": "2026-11-06T21:10:18+0530"
+}

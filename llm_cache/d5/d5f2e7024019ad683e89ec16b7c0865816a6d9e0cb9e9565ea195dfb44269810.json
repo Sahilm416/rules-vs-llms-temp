@@ -1,0 +1,11 @@
+{
+ "tag": "dq-complaint_descriptor_mismatch",
+ "model": "gemini-3.5-flash-lite",
+ "attempt": 0,
+ "text": "{\n  \"flagged\": [\n    {\n      \"row_id\": 0,\n      \"observed\": \"Elevator stuck between floors\",\n      \"expected\": \"Paint or plaster issue\",\n      \"reason\": \"Elevator issue is unrelated to paint or plaster complaint type.\"\n    },\n    {\n      \"row_id\": 2,\n      \"observed\": \"Drumming from upstairs tenant all night\",\n      \"expected\": \"Tree damage descriptor\",\n      \"reason\": \"Noise from a tenant is unrelated to illegal tree damage.\"\n    },\n    {\n      \"row_id\": 9,\n      \"observed\": \"Damaged Leg or Pole Bent\",\n      \"expected\": \"Dirty condition descriptor\",\n      \"reason\": \"Pole or leg damage is unrelated to dirty conditions.\"\n    },\n    {\n      \"row_id\": 21,\n      \"observed\": \"Chronic Dumping\",\n      \"expected\": \"Illegal parking descriptor\",\n      \"reason\": \"Dumping is unrelated to illegal parking.\"\n    },\n    {\n      \"row_id\": 22,\n      \"observed\": \"Tree roots lifting the pavement\",\n      \"expected\": \"Elevator descriptor\",\n      \"reason\": \"Tree roots are unrelated to elevators.\"\n    },\n    {\n      \"row_id\": 28,\n      \"observed\": \"Poison Ivy\",\n      \"expected\": \"Illegal dumping descriptor\",\n      \"reason\": \"Poison ivy is a vegetation issue, not illegal dumping.\"\n    },\n    {\n      \"row_id\": 30,\n      \"observed\": \"Taste\",\n      \"expected\": \"Rodent descriptor\",\n      \"reason\": \"Taste is unrelated to rodent complaints.\"\n    },\n    {\n      \"row_id\": 36,\n      \"observed\": \"BATHTUB/SHOWER\",\n      \"expected\": \"Dirty condition descriptor\",\n      \"reason\": \"Bathtub/shower is a plumbing or fixture term, not a dirty condition descriptor.\"\n    }\n  ]\n}",
+ "finish_reason": "STOP",
+ "input_tokens": 1227,
+ "output_tokens": 450,
+ "latency_s": 1.903,
+ "recorded_at": "2026-11-06T21:10:55+0530"
+}

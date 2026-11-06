@@ -1,0 +1,11 @@
+{
+ "tag": "dq-near_duplicates",
+ "model": "gemini-3.5-flash-lite",
+ "attempt": 0,
+ "text": "{\n  \"flagged\": [\n    {\n      \"row_id\": 10,\n      \"observed\": \"59740245\",\n      \"expected\": \"59744166\",\n      \"reason\": \"This row has the same complaint type, descriptor, and incident address as row 9 with a very close timestamp, representing a duplicate request with a different unique key.\"\n    },\n    {\n      \"row_id\": 11,\n      \"observed\": \"59740243\",\n      \"expected\": \"59744166\",\n      \"reason\": \"This row has the same complaint type, descriptor, and incident address as rows 9 and 10 with a very close timestamp, representing a duplicate request with a different unique key.\"\n    },\n    {\n      \"row_id\": 29,\n      \"observed\": \"59746079\",\n      \"expected\": \"59744744\",\n      \"reason\": \"This row has the exact same complaint type, descriptor, incident address, and resolution description as row 28 within seconds of creation, representing a duplicate request.\"\n    },\n    {\n      \"row_id\": 30,\n      \"observed\": \"59739523\",\n      \"expected\": \"59744744\",\n      \"reason\": \"This row has the exact same complaint type, descriptor, incident address, and resolution description as rows 28 and 29 within minutes of creation, representing a duplicate request.\"\n    },\n    {\n      \"row_id\": 38,\n      \"observed\": \"59740180\",\n      \"expected\": \"59741532\",\n      \"reason\": \"This row has the exact same complaint type, descriptor, incident address, and resolution description as row 37 created just one minute later, representing a duplicate request.\"\n    }\n  ]\n}",
+ "finish_reason": "STOP",
+ "input_tokens": 4908,
+ "output_tokens": 449,
+ "latency_s": 2.117,
+ "recorded_at": "2026-11-06T21:13:38+0530"
+}

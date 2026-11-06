@@ -1,0 +1,11 @@
+{
+ "tag": "dq-null_spike",
+ "model": "gemini-3.5-flash-lite",
+ "attempt": 0,
+ "text": "{\n  \"alert\": true,\n  \"columns\": [\"incident_zip\"],\n  \"observed\": \"0.839\",\n  \"expected\": \"0.0\",\n  \"reason\": \"HPD shows a significant spike in null values for the incident_zip column compared to the reference null rate of 0.0.\"\n}",
+ "finish_reason": "STOP",
+ "input_tokens": 2619,
+ "output_tokens": 75,
+ "latency_s": 1.278,
+ "recorded_at": "2026-11-06T21:06:20+0530"
+}

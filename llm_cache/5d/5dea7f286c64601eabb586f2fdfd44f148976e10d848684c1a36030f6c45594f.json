@@ -1,0 +1,11 @@
+{
+ "tag": "parse",
+ "model": "gemini-3.5-flash-lite",
+ "attempt": 0,
+ "text": "{\n  \"gross_salary\": {\n    \"status\": \"value\",\n    \"evidence\": \"16 lakh saal ka\",\n    \"rupees_per_year\": 1600000.0\n  },\n  \"age\": {\n    \"status\": \"value\",\n    \"evidence\": \"Age 32\",\n    \"age_band\": \"below_60\"\n  },\n  \"basic_da\": {\n    \"status\": \"unknown\",\n    \"evidence\": \"\"\n  },\n  \"hra_received\": {\n    \"status\": \"unknown\",\n    \"evidence\": \"\"\n  },\n  \"rent_paid\": {\n    \"status\": \"value\",\n    \"evidence\": \"30 hazaar mahina\",\n    \"rupees_per_year\": 360000.0\n  },\n  \"sec_80c\": {\n    \"status\": \"none\",\n    \"evidence\": \"baaki koi deduction nahi\"\n  },\n  \"sec_80ccd1b\": {\n    \"status\": \"none\",\n    \"evidence\": \"baaki koi deduction nahi\"\n  },\n  \"sec_80d_self\": {\n    \"status\": \"none\",\n    \"evidence\": \"baaki koi deduction nahi\"\n  },\n  \"sec_80d_parents\": {\n    \"status\": \"none\",\n    \"evidence\": \"baaki koi deduction nahi\"\n  },\n  \"home_loan_interest\": {\n    \"status\": \"none\",\n    \"evidence\": \"baaki koi deduction nahi\"\n  },\n  \"city\": \"Delhi\",\n  \"parents_senior\": \"unknown\",\n  \"unsupported_income_or_status\": false,\n  \"unsupported_evidence\": \"\",\n  \"clarify_topics\": [\n    \"hra_details\"\n  ]\n}",
+ "finish_reason": "STOP",
+ "input_tokens": 669,
+ "output_tokens": 429,
+ "latency_s": 1.601,
+ "recorded_at": "2026-11-06T20:51:04+0530"
+}

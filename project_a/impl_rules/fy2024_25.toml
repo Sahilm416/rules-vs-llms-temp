@@ -1,0 +1,127 @@
+# Hand-written rule configuration. Every number here is law; engine.py contains no rates or limits.
+fy = "2024-25"
+
+[hra]
+clause = "S10-13A"
+rent_excess_over_salary_pct = 10
+metro_pct = 50
+non_metro_pct = 40
+
+[home_loan]
+clause = "S24-b"
+setoff_clause = "S71-3A"
+cap = 200000
+
+[cess]
+clause = "CESS"
+pct = 4
+
+[[deductions]]
+field = "sec_80c"
+clause = "S80C"
+cap = 150000
+
+[[deductions]]
+field = "sec_80ccd1b"
+clause = "S80CCD-1B"
+cap = 50000
+
+[[deductions]]
+field = "sec_80d_self"
+clause = "S80D-SELF"
+cap = 25000
+senior_cap = 50000
+senior_when = "self_age"
+senior_age = 60
+
+[[deductions]]
+field = "sec_80d_parents"
+clause = "S80D-PARENTS"
+cap = 25000
+senior_cap = 50000
+senior_when = "parents_senior"
+
+[old]
+standard_deduction = 50000
+rebate = { clause = "S87A-OLD", income_limit = 500000, cap = 12500, marginal_clause = "" }
+
+[[old.age_bands]]
+min_age = 0
+slabs = [
+  { upto = 250000, pct = 0, clause = "FS3-A-i-S1" },
+  { upto = 500000, pct = 5, clause = "FS3-A-i-S2" },
+  { upto = 1000000, pct = 20, clause = "FS3-A-i-S3" },
+  { pct = 30, clause = "FS3-A-i-S4" },
+]
+
+[[old.age_bands]]
+min_age = 60
+slabs = [
+  { upto = 300000, pct = 0, clause = "FS3-A-ii-S1" },
+  { upto = 500000, pct = 5, clause = "FS3-A-ii-S2" },
+  { upto = 1000000, pct = 20, clause = "FS3-A-ii-S3" },
+  { pct = 30, clause = "FS3-A-ii-S4" },
+]
+
+[[old.age_bands]]
+min_age = 80
+slabs = [
+  { upto = 500000, pct = 0, clause = "FS3-A-iii-S1" },
+  { upto = 1000000, pct = 20, clause = "FS3-A-iii-S2" },
+  { pct = 30, clause = "FS3-A-iii-S3" },
+]
+
+[[old.surcharge]]
+above = 5000000
+pct = 10
+clause = "SURCH-50L"
+
+[[old.surcharge]]
+above = 10000000
+pct = 15
+clause = "SURCH-1CR"
+
+[[old.surcharge]]
+above = 20000000
+pct = 25
+clause = "SURCH-2CR"
+
+[[old.surcharge]]
+above = 50000000
+pct = 37
+clause = "SURCH-5CR-OLD"
+
+[new]
+standard_deduction = 75000
+rebate = { clause = "S87A-NEW-a", income_limit = 700000, cap = 25000, marginal_clause = "S87A-NEW-b" }
+
+[[new.age_bands]]
+min_age = 0
+slabs = [
+  { upto = 300000, pct = 0, clause = "S115BAC-1A-ii-S1" },
+  { upto = 700000, pct = 5, clause = "S115BAC-1A-ii-S2" },
+  { upto = 1000000, pct = 10, clause = "S115BAC-1A-ii-S3" },
+  { upto = 1200000, pct = 15, clause = "S115BAC-1A-ii-S4" },
+  { upto = 1500000, pct = 20, clause = "S115BAC-1A-ii-S5" },
+  { pct = 30, clause = "S115BAC-1A-ii-S6" },
+]
+
+[[new.surcharge]]
+above = 5000000
+pct = 10
+clause = "SURCH-50L"
+
+[[new.surcharge]]
+above = 10000000
+pct = 15
+clause = "SURCH-1CR"
+
+[[new.surcharge]]
+above = 20000000
+pct = 25
+clause = "SURCH-2CR"
+
+[[new.surcharge]]
+above = 50000000
+pct = 25
+clause = "SURCH-5CR-NEW"

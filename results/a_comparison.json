@@ -1,0 +1,343 @@
+{
+ "2024-25": {
+  "rules": {
+   "n": 302,
+   "exact": 302,
+   "errors": 0,
+   "wrong_ids": [],
+   "traceable": 302,
+   "latency_ms_p50": 0.28000003658235073,
+   "latency_ms_p95": 0.29737502336502075,
+   "deterministic": true,
+   "repeat_inputs": 21,
+   "cost_per_1000_usd": 0.0
+  },
+  "compiled_raw": {
+   "n": 302,
+   "exact": 302,
+   "errors": 0,
+   "wrong_ids": [],
+   "traceable": 302,
+   "latency_ms_p50": 0.015583005733788013,
+   "latency_ms_p95": 0.02437504008412361,
+   "deterministic": true,
+   "repeat_inputs": 21,
+   "cost_per_1000_usd": 0.0
+  },
+  "compiled_reviewed": {
+   "n": 302,
+   "exact": 302,
+   "errors": 0,
+   "wrong_ids": [],
+   "traceable": 302,
+   "latency_ms_p50": 0.01562491524964571,
+   "latency_ms_p95": 0.02366607077419758,
+   "deterministic": true,
+   "repeat_inputs": 21,
+   "cost_per_1000_usd": 0.0
+  },
+  "query:gemini-3.6-flash": {
+   "n": 3,
+   "suite_size": 302,
+   "exact": 3,
+   "silent_wrong": 0,
+   "invalid": 0,
+   "traceable": 2,
+   "latency_s_p50": 17.808,
+   "latency_s_p95": 17.972,
+   "cost_per_1000_usd": 16.6595,
+   "input_tokens_mean": 2514.3333333333335,
+   "output_tokens_mean": 3939.6666666666665,
+   "wrong_examples": []
+  },
+  "query:gemini-3.5-flash-lite": {
+   "n": 22,
+   "suite_size": 302,
+   "exact": 7,
+   "silent_wrong": 15,
+   "invalid": 0,
+   "traceable": 7,
+   "latency_s_p50": 3.33,
+   "latency_s_p95": 4.476,
+   "cost_per_1000_usd": 3.593268181818182,
+   "input_tokens_mean": 2519.2272727272725,
+   "output_tokens_mean": 1135,
+   "wrong_examples": [
+    {
+     "id": "2024-25-old_slab-age30_1000000_+10",
+     "got": [
+      117000,
+      59800
+     ],
+     "expected": [
+      117000,
+      49400
+     ]
+    },
+    {
+     "id": "2024-25-old_slab-age60_1000000_-4",
+     "got": [
+      80600.0,
+      54600.0
+     ],
+     "expected": [
+      114400,
+      49400
+     ]
+    },
+    {
+     "id": "2024-25-old_slab-age60_1000000_+10",
+     "got": [
+      117000,
+      65000
+     ],
+     "expected": [
+      114400,
+      49400
+     ]
+    },
+    {
+     "id": "2024-25-old_slab-age80_1000000_-5",
+     "got": [
+      114400,
+      65000
+     ],
+     "expected": [
+      104000,
+      49400
+     ]
+    },
+    {
+     "id": "2024-25-new_slab-1500000_-10",
+     "got": [
+      283400,
+      145600
+     ],
+     "expected": [
+      280800,
+      145600
+     ]
+    },
+    {
+     "id": "2024-25-rebate_new_breakeven--10",
+     "got": [
+      64420,
+      37560
+     ],
+     "expected": [
+      64420,
+      23100
+     ]
+    },
+    {
+     "id": "2024-25-rebate_new_breakeven-+0",
+     "got": [
+      64420,
+      37560
+     ],
+     "expected": [
+      64420,
+      23110
+     ]
+    },
+    {
+     "id": "2024-25-surcharge-new_10000000_-10",
+     "got": [
+      3570060,
+      3259100
+     ],
+     "expected": [
+      3243490,
+      3077360
+     ]
+    }
+   ]
+  }
+ },
+ "2025-26": {
+  "rules": {
+   "n": 310,
+   "exact": 310,
+   "errors": 0,
+   "wrong_ids": [],
+   "traceable": 310,
+   "latency_ms_p50": 0.28491602279245853,
+   "latency_ms_p95": 0.307207927107811,
+   "deterministic": true,
+   "repeat_inputs": 21,
+   "cost_per_1000_usd": 0.0
+  },
+  "compiled_raw": {
+   "n": 310,
+   "exact": 272,
+   "errors": 0,
+   "wrong_ids": [
+    "2025-26-surcharge-old_5000000_+10",
+    "2025-26-surcharge-old_5000000_+1000",
+    "2025-26-surcharge-old_5000000_+100000",
+    "2025-26-surcharge-old_10000000_+10",
+    "2025-26-surcharge-old_10000000_+1000",
+    "2025-26-surcharge-old_10000000_+100000",
+    "2025-26-surcharge_relief_end-old_10000000_-10",
+    "2025-26-surcharge_relief_end-old_10000000_+0",
+    "2025-26-surcharge_relief_end-old_10000000_+10",
+    "2025-26-surcharge-old_20000000_+10"
+   ],
+   "traceable": 308,
+   "latency_ms_p50": 0.006625079549849033,
+   "latency_ms_p95": 0.008707982487976551,
+   "deterministic": true,
+   "repeat_inputs": 21,
+   "cost_per_1000_usd": 0.0
+  },
+  "compiled_reviewed": {
+   "n": 310,
+   "exact": 310,
+   "errors": 0,
+   "wrong_ids": [],
+   "traceable": 310,
+   "latency_ms_p50": 0.006708083674311638,
+   "latency_ms_p95": 0.009333016350865364,
+   "deterministic": true,
+   "repeat_inputs": 21,
+   "cost_per_1000_usd": 0.0
+  },
+  "query:gemini-3.5-flash-lite": {
+   "n": 25,
+   "suite_size": 310,
+   "exact": 7,
+   "silent_wrong": 18,
+   "invalid": 0,
+   "traceable": 7,
+   "latency_s_p50": 3.36,
+   "latency_s_p95": 4.771,
+   "cost_per_1000_usd": 3.696048,
+   "input_tokens_mean": 2579.16,
+   "output_tokens_mean": 1168.92,
+   "wrong_examples": [
+    {
+     "id": "2025-26-old_slab-age30_1000000_+0",
+     "got": [
+      117000,
+      45500
+     ],
+     "expected": [
+      117000,
+      0
+     ]
+    },
+    {
+     "id": "2025-26-old_slab-age60_1000000_+10",
+     "got": [
+      114400,
+      49400
+     ],
+     "expected": [
+      114400,
+      0
+     ]
+    },
+    {
+     "id": "2025-26-new_slab-1200000_+0",
+     "got": [
+      192400,
+      0
+     ],
+     "expected": [
+      187200,
+      0
+     ]
+    },
+    {
+     "id": "2025-26-new_slab-2000000_+5",
+     "got": [
+      498040,
+      280800
+     ],
+     "expected": [
+      436800,
+      208000
+     ]
+    },
+    {
+     "id": "2025-26-rebate_old-+50",
+     "got": [
+      1300,
+      0
+     ],
+     "expected": [
+      13010,
+      0
+     ]
+    },
+    {
+     "id": "2025-26-surcharge_relief_end-old_5000000_-10",
+     "got": [
+      1786550,
+      1777580
+     ],
+     "expected": [
+      1568730,
+      1294170
+     ]
+    },
+    {
+     "id": "2025-26-surcharge_relief_end-old_10000000_+10",
+     "got": [
+      4355490,
+      3857540
+     ],
+     "expected": [
+      3440790,
+      3148820
+     ]
+    },
+    {
+     "id": "2025-26-surcharge-old_20000000_-10",
+     "got": [
+      7161070,
+      5763220
+     ],
+     "expected": [
+      6951750,
+      6664710
+     ]
+    }
+   ]
+  }
+ },
+ "determinism": {
+  "gemini-3.6-flash": [
+   {
+    "id": "2024-25-new_slab-700000_+0",
+    "repeats": 10,
+    "distinct_tax_answers": 1,
+    "distinct_full_answers": 9,
+    "all_correct": true
+   },
+   {
+    "id": "2024-25-rebate_new_breakeven--10",
+    "repeats": 5,
+    "distinct_tax_answers": 1,
+    "distinct_full_answers": 5,
+    "all_correct": true
+   }
+  ],
+  "gemini-3.5-flash-lite": [
+   {
+    "id": "2024-25-new_slab-700000_+0",
+    "repeats": 10,
+    "distinct_tax_answers": 2,
+    "distinct_full_answers": 10,
+    "all_correct": false
+   },
+   {
+    "id": "2024-25-rebate_new_breakeven--10",
+    "repeats": 10,
+    "distinct_tax_answers": 7,
+    "distinct_full_answers": 10,
+    "all_correct": false
+   }
+  ]
+ }
+}

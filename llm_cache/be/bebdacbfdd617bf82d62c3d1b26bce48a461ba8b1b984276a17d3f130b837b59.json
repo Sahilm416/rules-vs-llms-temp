@@ -1,0 +1,11 @@
+{
+ "tag": "dq-exact_duplicates",
+ "model": "gemini-3.5-flash-lite",
+ "attempt": 0,
+ "text": "{\n  \"flagged\": [\n    {\n      \"row_id\": 11,\n      \"observed\": \"58354185\",\n      \"expected\": \"unique\",\n      \"reason\": \"Exact repeat of row 4 including unique_key\"\n    },\n    {\n      \"row_id\": 20,\n      \"observed\": \"58353253\",\n      \"expected\": \"unique\",\n      \"reason\": \"Exact repeat of row 15 including unique_key\"\n    },\n    {\n      \"row_id\": 21,\n      \"observed\": \"58348712\",\n      \"expected\": \"unique\",\n      \"reason\": \"Exact repeat of row 18 including unique_key\"\n    },\n    {\n      \"row_id\": 25,\n      \"observed\": \"58348982\",\n      \"expected\": \"unique\",\n      \"reason\": \"Exact repeat of row 3 including unique_key\"\n    },\n    {\n      \"row_id\": 27,\n      \"observed\": \"58346612\",\n      \"expected\": \"unique\",\n      \"reason\": \"Exact repeat of row 14 including unique_key\"\n    },\n    {\n      \"row_id\": 31,\n      \"observed\": \"58348761\",\n      \"expected\": \"unique\",\n      \"reason\": \"Exact repeat of row 22 including unique_key\"\n    },\n    {\n      \"row_id\": 36,\n      \"observed\": \"58363145\",\n      \"expected\": \"unique\",\n      \"reason\": \"Exact repeat of row 33 including unique_key\"\n    },\n    {\n      \"row_id\": 38,\n      \"observed\": \"58355896\",\n      \"expected\": \"unique\",\n      \"reason\": \"Exact repeat of row 37 including unique_key\"\n    }\n  ]\n}",
+ "finish_reason": "STOP",
+ "input_tokens": 3837,
+ "output_tokens": 475,
+ "latency_s": 2.171,
+ "recorded_at": "2026-11-06T21:06:12+0530"
+}

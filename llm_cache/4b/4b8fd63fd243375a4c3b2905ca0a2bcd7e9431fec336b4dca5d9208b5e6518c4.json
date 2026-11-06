@@ -1,0 +1,11 @@
+{
+ "tag": "dq-exact_duplicates",
+ "model": "gemini-3.5-flash-lite",
+ "attempt": 0,
+ "text": "{\"flagged\": [{\"row_id\": 7, \"observed\": \"row 7\", \"expected\": \"row 1\", \"reason\": \"Exact repeat of an earlier row including unique_key\"}, {\"row_id\": 12, \"observed\": \"row 12\", \"expected\": \"row 8\", \"reason\": \"Exact repeat of an earlier row including unique_key\"}, {\"row_id\": 15, \"observed\": \"row 15\", \"expected\": \"row 11\", \"reason\": \"Exact repeat of an earlier row including unique_key\"}, {\"row_id\": 23, \"observed\": \"row 23\", \"expected\": \"row 0\", \"reason\": \"Exact repeat of an earlier row including unique_key\"}, {\"row_id\": 30, \"observed\": \"row 30\", \"expected\": \"row 25\", \"reason\": \"Exact repeat of an earlier row including unique_key\"}, {\"row_id\": 33, \"observed\": \"row 33\", \"expected\": \"row 9\", \"reason\": \"Exact repeat of an earlier row including unique_key\"}, {\"row_id\": 35, \"observed\": \"row 35\", \"expected\": \"row 14\", \"reason\": \"Exact repeat of an earlier row including unique_key\"}, {\"row_id\": 38, \"observed\": \"row 38\", \"expected\": \"row 27\", \"reason\": \"Exact repeat of an earlier row including unique_key\"}]}",
+ "finish_reason": "STOP",
+ "input_tokens": 3836,
+ "output_tokens": 335,
+ "latency_s": 2.379,
+ "recorded_at": "2026-11-06T21:04:16+0530"
+}

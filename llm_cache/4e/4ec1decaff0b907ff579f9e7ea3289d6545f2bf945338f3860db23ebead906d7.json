@@ -1,0 +1,11 @@
+{
+ "tag": "parse",
+ "model": "gemini-3.5-flash-lite",
+ "attempt": 0,
+ "text": "{\n  \"gross_salary\": {\n    \"status\": \"value\",\n    \"evidence\": \"Gross salary Rs 12,00,000 per year\",\n    \"rupees_per_year\": 1200000\n  },\n  \"age\": {\n    \"status\": \"value\",\n    \"evidence\": \"Age 29\",\n    \"age_band\": \"below_60\"\n  },\n  \"basic_da\": {\n    \"status\": \"value\",\n    \"evidence\": \"basic plus DA is 6,00,000\",\n    \"rupees_per_year\": 600000\n  },\n  \"hra_received\": {\n    \"status\": \"value\",\n    \"evidence\": \"HRA is 2,40,000\",\n    \"rupees_per_year\": 240000\n  },\n  \"rent_paid\": {\n    \"status\": \"value\",\n    \"evidence\": \"rent of 20,000 a month\",\n    \"rupees_per_year\": 240000\n  },\n  \"sec_80c\": {\n    \"status\": \"value\",\n    \"evidence\": \"80C investments 1.5 lakh\",\n    \"rupees_per_year\": 150000\n  },\n  \"sec_80ccd1b\": {\n    \"status\": \"value\",\n    \"evidence\": \"No NPS\",\n    \"rupees_per_year\": 0\n  },\n  \"sec_80d_self\": {\n    \"status\": \"value\",\n    \"evidence\": \"no health insurance\",\n    \"rupees_per_year\": 0\n  },\n  \"sec_80d_parents\": {\n    \"status\": \"unknown\",\n    \"evidence\": \"\"\n  },\n  \"home_loan_interest\": {\n    \"status\": \"value\",\n    \"evidence\": \"no home loan\",\n    \"rupees_per_year\": 0\n  },\n  \"city\": \"Mumbai\",\n  \"parents_senior\": \"unknown\",\n  \"unsupported_income_or_status\": false,\n  \"unsupported_evidence\": \"\",\n  \"clarify_topics\": [\n    \"deductions\"\n  ]\n}",
+ "finish_reason": "STOP",
+ "input_tokens": 721,
+ "output_tokens": 543,
+ "latency_s": 2.032,
+ "recorded_at": "2026-11-06T20:47:36+0530"
+}

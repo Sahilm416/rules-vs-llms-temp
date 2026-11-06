@@ -1,0 +1,11 @@
+{
+ "tag": "parse",
+ "model": "gemini-3.5-flash-lite",
+ "attempt": 0,
+ "text": "{\n  \"gross_salary\": {\n    \"status\": \"value\",\n    \"evidence\": \"annual gross salary of 32 lakh\",\n    \"rupees_per_year\": 3200000\n  },\n  \"age\": {\n    \"status\": \"value\",\n    \"evidence\": \"I am a 45 year old\",\n    \"age_band\": \"below_60\"\n  },\n  \"basic_da\": {\n    \"status\": \"unknown\",\n    \"evidence\": \"\"\n  },\n  \"hra_received\": {\n    \"status\": \"none\",\n    \"evidence\": \"No rent or HRA\"\n  },\n  \"rent_paid\": {\n    \"status\": \"none\",\n    \"evidence\": \"No rent or HRA\"\n  },\n  \"sec_80c\": {\n    \"status\": \"value\",\n    \"evidence\": \"PPF and ELSS come to 1,50,000\",\n    \"rupees_per_year\": 150000\n  },\n  \"sec_80ccd1b\": {\n    \"status\": \"value\",\n    \"evidence\": \"NPS 50,000\",\n    \"rupees_per_year\": 50000\n  },\n  \"sec_80d_self\": {\n    \"status\": \"value\",\n    \"evidence\": \"Health insurance for my family costs 22,000\",\n    \"rupees_per_year\": 22000\n  },\n  \"sec_80d_parents\": {\n    \"status\": \"value\",\n    \"evidence\": \"I pay 48,000 for my parents\",\n    \"rupees_per_year\": 48000\n  },\n  \"home_loan_interest\": {\n    \"status\": \"value\",\n    \"evidence\": \"pay 2.4 lakh interest on the home loan each year\",\n    \"rupees_per_year\": 240000\n  },\n  \"city\": \"\",\n  \"parents_senior\": \"yes\",\n  \"unsupported_income_or_status\": false,\n  \"unsupported_evidence\": \"\",\n  \"clarify_topics\": []\n}",
+ "finish_reason": "STOP",
+ "input_tokens": 739,
+ "output_tokens": 526,
+ "latency_s": 1.773,
+ "recorded_at": "2026-11-06T20:47:43+0530"
+}

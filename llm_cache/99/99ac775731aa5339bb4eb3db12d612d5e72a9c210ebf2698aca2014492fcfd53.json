@@ -1,0 +1,11 @@
+{
+ "tag": "parse",
+ "model": "gemini-3.5-flash-lite",
+ "attempt": 0,
+ "text": "{\n  \"gross_salary\": {\n    \"status\": \"value\",\n    \"evidence\": \"gross salary 28 lakh a year\",\n    \"rupees_per_year\": 2800000\n  },\n  \"age\": {\n    \"status\": \"value\",\n    \"evidence\": \"I'm 45\",\n    \"age_band\": \"below_60\"\n  },\n  \"basic_da\": {\n    \"status\": \"unknown\",\n    \"evidence\": \"\"\n  },\n  \"hra_received\": {\n    \"status\": \"unknown\",\n    \"evidence\": \"\"\n  },\n  \"rent_paid\": {\n    \"status\": \"unknown\",\n    \"evidence\": \"\"\n  },\n  \"sec_80c\": {\n    \"status\": \"value\",\n    \"evidence\": \"I invest in PPF\",\n    \"rupees_per_year\": 0\n  },\n  \"sec_80ccd1b\": {\n    \"status\": \"unknown\",\n    \"evidence\": \"\"\n  },\n  \"sec_80d_self\": {\n    \"status\": \"unknown\",\n    \"evidence\": \"\"\n  },\n  \"sec_80d_parents\": {\n    \"status\": \"unknown\",\n    \"evidence\": \"\"\n  },\n  \"home_loan_interest\": {\n    \"status\": \"value\",\n    \"evidence\": \"pay a home loan\",\n    \"rupees_per_year\": 0\n  },\n  \"city\": \"\",\n  \"parents_senior\": \"unknown\",\n  \"unsupported_income_or_status\": false,\n  \"unsupported_evidence\": \"\",\n  \"clarify_topics\": [\n    \"deductions\"\n  ]\n}",
+ "finish_reason": "STOP",
+ "input_tokens": 660,
+ "output_tokens": 407,
+ "latency_s": 2.11,
+ "recorded_at": "2026-11-06T20:50:51+0530"
+}

@@ -1,0 +1,11 @@
+{
+ "tag": "parse",
+ "model": "gemini-3.5-flash-lite",
+ "attempt": 0,
+ "text": "{\n  \"gross_salary\": {\n    \"status\": \"value\",\n    \"evidence\": \"gross 20 lakh per annum\",\n    \"rupees_per_year\": 2000000\n  },\n  \"age\": {\n    \"status\": \"value\",\n    \"evidence\": \"62-year-old\",\n    \"age_band\": \"60_to_79\"\n  },\n  \"basic_da\": {\n    \"status\": \"unknown\",\n    \"evidence\": \"\"\n  },\n  \"hra_received\": {\n    \"status\": \"none\",\n    \"evidence\": \"no rent\"\n  },\n  \"rent_paid\": {\n    \"status\": \"none\",\n    \"evidence\": \"no rent\"\n  },\n  \"sec_80c\": {\n    \"status\": \"none\",\n    \"evidence\": \"No 80C\"\n  },\n  \"sec_80ccd1b\": {\n    \"status\": \"none\",\n    \"evidence\": \"no NPS\"\n  },\n  \"sec_80d_self\": {\n    \"status\": \"value\",\n    \"evidence\": \"Self health premium 55,000\",\n    \"rupees_per_year\": 55000\n  },\n  \"sec_80d_parents\": {\n    \"status\": \"none\",\n    \"evidence\": \"no premium for them\"\n  },\n  \"home_loan_interest\": {\n    \"status\": \"none\",\n    \"evidence\": \"no home loan\"\n  },\n  \"city\": \"\",\n  \"parents_senior\": \"unknown\",\n  \"unsupported_income_or_status\": false,\n  \"unsupported_evidence\": \"\",\n  \"clarify_topics\": [\n    \"salary\"\n  ]\n}",
+ "finish_reason": "STOP",
+ "input_tokens": 689,
+ "output_tokens": 424,
+ "latency_s": 1.724,
+ "recorded_at": "2026-11-06T20:48:22+0530"
+}

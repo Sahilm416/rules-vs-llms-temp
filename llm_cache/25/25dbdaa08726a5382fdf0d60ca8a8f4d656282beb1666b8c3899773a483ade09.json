@@ -1,0 +1,11 @@
+{
+ "tag": "dq-date_format_switch",
+ "model": "gemini-3.5-flash-lite",
+ "attempt": 0,
+ "text": "{\n  \"alert\": true,\n  \"columns\": [\"created_date\", \"closed_date\"],\n  \"observed\": \"DD-MM-YYYY HH:MM\",\n  \"expected\": \"YYYY-MM-DDTHH:MM:SS.000\",\n  \"reason\": \"The date format in created_date and closed_date changed partway through the batch at the last row, switching from ISO format with milliseconds to a non-standard DD-MM-YYYY HH:MM format.\"\n}",
+ "finish_reason": "STOP",
+ "input_tokens": 2383,
+ "output_tokens": 111,
+ "latency_s": 1.566,
+ "recorded_at": "2026-11-06T21:05:39+0530"
+}

@@ -1,0 +1,11 @@
+{
+ "tag": "parse",
+ "model": "gemini-3.5-flash-lite",
+ "attempt": 0,
+ "text": "{\n  \"gross_salary\": {\n    \"status\": \"value\",\n    \"evidence\": \"20 LPA gross\",\n    \"rupees_per_year\": 2000000\n  },\n  \"age\": {\n    \"status\": \"unknown\",\n    \"evidence\": \"\",\n    \"age_band\": \"unknown\"\n  },\n  \"basic_da\": {\n    \"status\": \"unknown\",\n    \"evidence\": \"\"\n  },\n  \"hra_received\": {\n    \"status\": \"unknown\",\n    \"evidence\": \"\"\n  },\n  \"rent_paid\": {\n    \"status\": \"none\",\n    \"evidence\": \"No other deductions\"\n  },\n  \"sec_80c\": {\n    \"status\": \"none\",\n    \"evidence\": \"No other deductions\"\n  },\n  \"sec_80ccd1b\": {\n    \"status\": \"none\",\n    \"evidence\": \"No other deductions\"\n  },\n  \"sec_80d_self\": {\n    \"status\": \"none\",\n    \"evidence\": \"No other deductions\"\n  },\n  \"sec_80d_parents\": {\n    \"status\": \"value\",\n    \"evidence\": \"30,000 for their mediclaim\",\n    \"rupees_per_year\": 30000\n  },\n  \"home_loan_interest\": {\n    \"status\": \"none\",\n    \"evidence\": \"No other deductions\"\n  },\n  \"city\": \"\",\n  \"parents_senior\": \"yes\",\n  \"unsupported_income_or_status\": false,\n  \"unsupported_evidence\": \"\",\n  \"clarify_topics\": [\n    \"age\"\n  ]\n}",
+ "finish_reason": "STOP",
+ "input_tokens": 669,
+ "output_tokens": 404,
+ "latency_s": 1.806,
+ "recorded_at": "2026-11-06T20:51:30+0530"
+}

@@ -1,0 +1,11 @@
+{
+ "tag": "dq-complaint_descriptor_mismatch",
+ "model": "gemini-3.5-flash-lite",
+ "attempt": 0,
+ "text": "{\n  \"flagged\": [\n    {\n      \"row_id\": 0,\n      \"observed\": \"Planted Less Than 2 Years Ago\",\n      \"expected\": \"A noise-related descriptor\",\n      \"reason\": \"The descriptor describes a tree planting status rather than a park noise complaint.\"\n    },\n    {\n      \"row_id\": 21,\n      \"observed\": \"Inadequate Sweeping\",\n      \"expected\": \"An unsanitary condition descriptor like pests, mold, or garbage\",\n      \"reason\": \"Inadequate sweeping is typically related to street conditions or sanitation sweepings, not general unsanitary indoor conditions.\"\n    },\n    {\n      \"row_id\": 22,\n      \"observed\": \"SEWAGE\",\n      \"expected\": \"A tree request descriptor\",\n      \"reason\": \"Sewage is unrelated to requesting a new tree.\"\n    },\n    {\n      \"row_id\": 28,\n      \"observed\": \"Failure to Post Calorie Information\",\n      \"expected\": \"A flooring or stairs defect descriptor\",\n      \"reason\": \"Calorie posting requirements are food establishment regulations, not flooring or stairs issues.\"\n    },\n    {\n      \"row_id\": 30,\n      \"observed\": \"Fire Hydrant Leaning/Missing\",\n      \"expected\": \"A water leak descriptor\",\n      \"reason\": \"A leaning or missing fire hydrant pertains to street infrastructure or hydrants rather than a water leak.\"\n    },\n    {\n      \"row_id\": 32,\n      \"observed\": \"Abandoned boat left on the shoreline\",\n      \"expected\": \"A paint or plaster descriptor\",\n      \"reason\": \"An abandoned boat is completely unrelated to indoor paint or plaster conditions.\"\n    },\n    {\n      \"row_id\": 36,\n      \"observed\": \"Dog\",\n      \"expected\": \"A traffic signal condition descriptor\",\n      \"reason\": \"A dog is an animal, not a traffic signal defect.\"\n    }\n  ]\n}",
+ "finish_reason": "STOP",
+ "input_tokens": 1219,
+ "output_tokens": 453,
+ "latency_s": 2.335,
+ "recorded_at": "2026-11-06T21:05:17+0530"
+}

@@ -1,0 +1,11 @@
+{
+ "tag": "parse",
+ "model": "gemini-3.5-flash-lite",
+ "attempt": 0,
+ "text": "{\n  \"gross_salary\": {\n    \"status\": \"value\",\n    \"evidence\": \"gross salary 16,00,000 a year\",\n    \"rupees_per_year\": 1600000.0\n  },\n  \"age\": {\n    \"status\": \"value\",\n    \"evidence\": \"I'm 59\",\n    \"age_band\": \"below_60\"\n  },\n  \"basic_da\": {\n    \"status\": \"unknown\",\n    \"evidence\": \"\"\n  },\n  \"hra_received\": {\n    \"status\": \"none\",\n    \"evidence\": \"No rent or HRA.\"\n  },\n  \"rent_paid\": {\n    \"status\": \"none\",\n    \"evidence\": \"No rent or HRA.\"\n  },\n  \"sec_80c\": {\n    \"status\": \"value\",\n    \"evidence\": \"put 2,00,000 in 80C\",\n    \"rupees_per_year\": 200000.0\n  },\n  \"sec_80ccd1b\": {\n    \"status\": \"value\",\n    \"evidence\": \"75,000 in NPS\",\n    \"rupees_per_year\": 75000.0\n  },\n  \"sec_80d_self\": {\n    \"status\": \"value\",\n    \"evidence\": \"Health premium 30,000 for me\",\n    \"rupees_per_year\": 30000.0\n  },\n  \"sec_80d_parents\": {\n    \"status\": \"value\",\n    \"evidence\": \"Parents' premium 20,000\",\n    \"rupees_per_year\": 20000.0\n  },\n  \"home_loan_interest\": {\n    \"status\": \"value\",\n    \"evidence\": \"Home loan interest 3,00,000\",\n    \"rupees_per_year\": 300000.0\n  },\n  \"city\": \"\",\n  \"parents_senior\": \"no\",\n  \"unsupported_income_or_status\": false,\n  \"unsupported_evidence\": \"\",\n  \"clarify_topics\": [\n    \"deductions\"\n  ]\n}",
+ "finish_reason": "STOP",
+ "input_tokens": 730,
+ "output_tokens": 545,
+ "latency_s": 2.202,
+ "recorded_at": "2026-11-06T20:49:40+0530"
+}

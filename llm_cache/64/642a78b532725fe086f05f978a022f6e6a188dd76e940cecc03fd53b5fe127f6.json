@@ -1,0 +1,11 @@
+{
+ "tag": "dq-date_format_switch",
+ "model": "gemini-3.5-flash-lite",
+ "attempt": 0,
+ "text": "{\n  \"alert\": true,\n  \"columns\": [\"created_date\", \"closed_date\"],\n  \"observed\": \"YYYY/MM/DD HH:MM:SS\",\n  \"expected\": \"YYYY-MM-DDTHH:MM:SS.000\",\n  \"reason\": \"Some rows in the batch changed date format from ISO 8601 with milliseconds to slash-separated format without milliseconds.\"\n}",
+ "finish_reason": "STOP",
+ "input_tokens": 2412,
+ "output_tokens": 95,
+ "latency_s": 1.116,
+ "recorded_at": "2026-11-06T21:04:06+0530"
+}

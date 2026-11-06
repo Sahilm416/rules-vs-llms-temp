@@ -1,0 +1,22 @@
+{
+ "rules": {
+  "n": 310,
+  "silently_wrong": 245,
+  "wrong_recommendation": 21,
+  "worst_new_regime_error_rupees": 143000,
+  "loud_on_unknown_year": true
+ },
+ "compiled": {
+  "n": 310,
+  "silently_wrong": 245,
+  "wrong_recommendation": 21,
+  "worst_new_regime_error_rupees": 143000,
+  "loud_on_unknown_year": true
+ },
+ "query:gemini-3.5-flash-lite": {
+  "n": 10,
+  "silently_wrong": 7,
+  "right_by_coincidence": 3,
+  "invalid": 0
+ }
+}

@@ -1,0 +1,11 @@
+{
+ "tag": "dq-null_spike",
+ "model": "gemini-3.5-flash-lite",
+ "attempt": 0,
+ "text": "{\n  \"alert\": true,\n  \"columns\": [\"latitude\"],\n  \"observed\": \"0.874\",\n  \"expected\": \"0.0\",\n  \"reason\": \"DOT exhibits a massive spike in null values for the latitude column compared to the expected reference null rate of 0.0.\"\n}",
+ "finish_reason": "STOP",
+ "input_tokens": 2869,
+ "output_tokens": 71,
+ "latency_s": 1.107,
+ "recorded_at": "2026-11-06T21:04:24+0530"
+}

@@ -1,0 +1,11 @@
+{
+ "tag": "dq-date_format_switch",
+ "model": "gemini-3.5-flash-lite",
+ "attempt": 0,
+ "text": "{\n  \"alert\": false,\n  \"columns\": [],\n  \"observed\": \"All date columns follow the expected ISO 8601 format with milliseconds (YYYY-MM-DDTHH:MM:SS.sss)\",\n  \"expected\": \"YYYY-MM-DDTHH:MM:SS.sss\",\n  \"reason\": \"No format changes detected in any of the date columns across the batch\"\n}",
+ "finish_reason": "STOP",
+ "input_tokens": 2420,
+ "output_tokens": 92,
+ "latency_s": 1.874,
+ "recorded_at": "2026-11-06T21:06:57+0530"
+}

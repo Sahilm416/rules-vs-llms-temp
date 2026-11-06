@@ -1,0 +1,11 @@
+{
+ "tag": "parse",
+ "model": "gemini-3.5-flash-lite",
+ "attempt": 0,
+ "text": "{\n  \"gross_salary\": {\n    \"status\": \"value\",\n    \"evidence\": \"gross 18 lakh per year\",\n    \"rupees_per_year\": 1800000\n  },\n  \"age\": {\n    \"status\": \"value\",\n    \"evidence\": \"Meri age 35 hai\",\n    \"age_band\": \"below_60\"\n  },\n  \"basic_da\": {\n    \"status\": \"unknown\",\n    \"evidence\": \"\"\n  },\n  \"hra_received\": {\n    \"status\": \"unknown\",\n    \"evidence\": \"\"\n  },\n  \"rent_paid\": {\n    \"status\": \"conflict\",\n    \"evidence\": \"Main rent nahi deta. Har mahine 20 hazaar rent deta hu.\"\n  },\n  \"sec_80c\": {\n    \"status\": \"none\",\n    \"evidence\": \"Koi aur deduction nahi.\"\n  },\n  \"sec_80ccd1b\": {\n    \"status\": \"none\",\n    \"evidence\": \"Koi aur deduction nahi.\"\n  },\n  \"sec_80d_self\": {\n    \"status\": \"none\",\n    \"evidence\": \"Koi aur deduction nahi.\"\n  },\n  \"sec_80d_parents\": {\n    \"status\": \"none\",\n    \"evidence\": \"Koi aur deduction nahi.\"\n  },\n  \"home_loan_interest\": {\n    \"status\": \"none\",\n    \"evidence\": \"Koi aur deduction nahi.\"\n  },\n  \"city\": \"\",\n  \"parents_senior\": \"unknown\",\n  \"unsupported_income_or_status\": false,\n  \"unsupported_evidence\": \"\",\n  \"clarify_topics\": [\n    \"hra_details\",\n    \"conflict\"\n  ]\n}",
+ "finish_reason": "STOP",
+ "input_tokens": 671,
+ "output_tokens": 419,
+ "latency_s": 1.706,
+ "recorded_at": "2026-11-06T20:52:03+0530"
+}

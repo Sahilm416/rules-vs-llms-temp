@@ -1,0 +1,11 @@
+{
+ "tag": "parse",
+ "model": "gemini-3.5-flash-lite",
+ "attempt": 0,
+ "text": "{\n  \"gross_salary\": {\n    \"status\": \"value\",\n    \"evidence\": \"14 LPA\",\n    \"rupees_per_year\": 1400000\n  },\n  \"age\": {\n    \"status\": \"value\",\n    \"evidence\": \"Age 28\",\n    \"age_band\": \"below_60\"\n  },\n  \"basic_da\": {\n    \"status\": \"unknown\",\n    \"evidence\": \"\"\n  },\n  \"hra_received\": {\n    \"status\": \"unknown\",\n    \"evidence\": \"\"\n  },\n  \"rent_paid\": {\n    \"status\": \"unknown\",\n    \"evidence\": \"\"\n  },\n  \"sec_80c\": {\n    \"status\": \"none\",\n    \"evidence\": \"No other deductions.\"\n  },\n  \"sec_80ccd1b\": {\n    \"status\": \"none\",\n    \"evidence\": \"No other deductions.\"\n  },\n  \"sec_80d_self\": {\n    \"status\": \"none\",\n    \"evidence\": \"No other deductions.\"\n  },\n  \"sec_80d_parents\": {\n    \"status\": \"none\",\n    \"evidence\": \"No other deductions.\"\n  },\n  \"home_loan_interest\": {\n    \"status\": \"conflict\",\n    \"evidence\": \"I don't have a home loan. My home loan interest is 2 lakh a year.\"\n  },\n  \"city\": \"\",\n  \"parents_senior\": \"unknown\",\n  \"unsupported_income_or_status\": false,\n  \"unsupported_evidence\": \"\",\n  \"clarify_topics\": [\n    \"conflict\"\n  ]\n}",
+ "finish_reason": "STOP",
+ "input_tokens": 668,
+ "output_tokens": 399,
+ "latency_s": 1.526,
+ "recorded_at": "2026-11-06T20:51:49+0530"
+}

@@ -1,0 +1,11 @@
+{
+ "tag": "query-2025-26-rules2024-25",
+ "model": "gemini-3.5-flash-lite",
+ "attempt": 0,
+ "text": "{\n  \"old\": {\n    \"total_income\": 0,\n    \"slab_tax\": 0,\n    \"rebate\": 0,\n    \"surcharge\": 0,\n    \"cess\": 0,\n    \"total_before_rounding\": 0,\n    \"tax_payable\": 0,\n    \"trace\": [\n      {\n        \"group\": \"income\",\n        \"clause\": \"S17\",\n        \"description\": \"Gross salary\",\n        \"amount\": 50000\n      },\n      {\n        \"group\": \"income\",\n        \"clause\": \"S16-ia\",\n        \"description\": \"Standard deduction\",\n        \"amount\": -50000\n      },\n      {\n        \"group\": \"income\",\n        \"clause\": \"S288A\",\n        \"description\": \"Rounding of total income\",\n        \"amount\": 0\n      },\n      {\n        \"group\": \"tax\",\n        \"clause\": \"FS3-A-i-S1\",\n        \"description\": \"Slab tax\",\n        \"amount\": 0\n      },\n      {\n        \"group\": \"tax\",\n        \"clause\": \"S288B\",\n        \"description\": \"Final tax rounding\",\n        \"amount\": 0\n      }\n    ]\n  },\n  \"new\": {\n    \"total_income\": 0,\n    \"slab_tax\": 0,\n    \"rebate\": 0,\n    \"surcharge\": 0,\n    \"cess\": 0,\n    \"total_before_rounding\": 0,\n    \"tax_payable\": 0,\n    \"trace\": [\n      {\n        \"group\": \"income\",\n        \"clause\": \"S17\",\n        \"description\": \"Gross salary\",\n        \"amount\": 50000\n      },\n      {\n        \"group\": \"income\",\n        \"clause\": \"S16-ia\",\n        \"description\": \"Standard deduction\",\n        \"amount\": -50000\n      },\n      {\n        \"group\": \"income\",\n        \"clause\": \"S288A\",\n        \"description\": \"Rounding of total income\",\n        \"amount\": 0\n      },\n      {\n        \"group\": \"tax\",\n        \"clause\": \"S115BAC-1A-ii-S1\",\n        \"description\": \"Slab tax\",\n        \"amount\": 0\n      },\n      {\n        \"group\": \"tax\",\n        \"clause\": \"S288B\",\n        \"description\": \"Final tax rounding\",\n        \"amount\": 0\n      }\n    ]\n  },\n  \"recommended\": \"new\"\n}",
+ "finish_reason": "STOP",
+ "input_tokens": 2513,
+ "output_tokens": 635,
+ "latency_s": 2.261,
+ "recorded_at": "2026-11-06T21:08:07+0530"
+}

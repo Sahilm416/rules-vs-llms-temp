@@ -1,0 +1,11 @@
+{
+ "tag": "dq-resolution_status_contradiction",
+ "model": "gemini-3.5-flash-lite",
+ "attempt": 0,
+ "text": "{\n  \"flagged\": [\n    {\n      \"row_id\": 9,\n      \"observed\": \"Closed\",\n      \"expected\": \"Open or In Progress\",\n      \"reason\": \"Resolution text indicates work is still to come while status is Closed\"\n    },\n    {\n      \"row_id\": 10,\n      \"observed\": \"In Progress\",\n      \"expected\": \"Closed\",\n      \"reason\": \"Resolution text indicates work is finished while status is In Progress\"\n    },\n    {\n      \"row_id\": 11,\n      \"observed\": \"In Progress\",\n      \"expected\": \"Closed\",\n      \"reason\": \"Resolution text indicates work is finished while status is In Progress\"\n    },\n    {\n      \"row_id\": 12,\n      \"observed\": \"Closed\",\n      \"expected\": \"Open or In Progress\",\n      \"reason\": \"Resolution text indicates work is still to come while status is Closed\"\n    },\n    {\n      \"row_id\": 17,\n      \"observed\": \"In Progress\",\n      \"expected\": \"Closed\",\n      \"reason\": \"Resolution text indicates work is finished while status is In Progress\"\n    },\n    {\n      \"row_id\": 25,\n      \"observed\": \"In Progress\",\n      \"expected\": \"Closed\",\n      \"reason\": \"Resolution text indicates work is finished while status is In Progress\"\n    },\n    {\n      \"row_id\": 31,\n      \"observed\": \"Open\",\n      \"expected\": \"Closed\",\n      \"reason\": \"Resolution text indicates work is finished while status is Open\"\n    },\n    {\n      \"row_id\": 33,\n      \"observed\": \"Open\",\n      \"expected\": \"Closed\",\n      \"reason\": \"Resolution text indicates work is finished while status is Open\"\n    },\n    {\n      \"row_id\": 34,\n      \"observed\": \"Open\",\n      \"expected\": \"Closed\",\n      \"reason\": \"Resolution text indicates work is finished while status is Open\"\n    },\n    {\n      \"row_id\": 38,\n      \"observed\": \"Open\",\n      \"expected\": \"Closed\",\n      \"reason\": \"Resolution text indicates work is finished while status is Open\"\n    }\n  ]\n}",
+ "finish_reason": "STOP",
+ "input_tokens": 1565,
+ "output_tokens": 530,
+ "latency_s": 1.754,
+ "recorded_at": "2026-11-06T21:06:39+0530"
+}

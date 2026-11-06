@@ -1,0 +1,11 @@
+{
+ "tag": "parse",
+ "model": "gemini-3.5-flash-lite",
+ "attempt": 0,
+ "text": "{\n  \"gross_salary\": {\n    \"status\": \"value\",\n    \"evidence\": \"saal ka gross 24 lakh hai\",\n    \"rupees_per_year\": 2400000\n  },\n  \"age\": {\n    \"status\": \"value\",\n    \"evidence\": \"Meri age 41 hai\",\n    \"age_band\": \"below_60\"\n  },\n  \"basic_da\": {\n    \"status\": \"unknown\",\n    \"evidence\": \"\"\n  },\n  \"hra_received\": {\n    \"status\": \"none\",\n    \"evidence\": \"HRA nahi milta\"\n  },\n  \"rent_paid\": {\n    \"status\": \"none\",\n    \"evidence\": \"Rent nahi deta\"\n  },\n  \"sec_80c\": {\n    \"status\": \"value\",\n    \"evidence\": \"80C pura 1.5 lakh hai\",\n    \"rupees_per_year\": 150000\n  },\n  \"sec_80ccd1b\": {\n    \"status\": \"value\",\n    \"evidence\": \"NPS mein 50k dalta hu\",\n    \"rupees_per_year\": 50000\n  },\n  \"sec_80d_self\": {\n    \"status\": \"value\",\n    \"evidence\": \"Apna mediclaim 20 hazaar hai\",\n    \"rupees_per_year\": 20000\n  },\n  \"sec_80d_parents\": {\n    \"status\": \"none\",\n    \"evidence\": \"parents ka insurance nahi hai\"\n  },\n  \"home_loan_interest\": {\n    \"status\": \"value\",\n    \"evidence\": \"Home loan ka interest 2.5 lakh jata hai\",\n    \"rupees_per_year\": 250000\n  },\n  \"city\": \"\",\n  \"parents_senior\": \"unknown\",\n  \"unsupported_income_or_status\": false,\n  \"unsupported_evidence\": \"\",\n  \"clarify_topics\": []\n}",
+ "finish_reason": "STOP",
+ "input_tokens": 712,
+ "output_tokens": 492,
+ "latency_s": 1.979,
+ "recorded_at": "2026-11-06T20:49:01+0530"
+}

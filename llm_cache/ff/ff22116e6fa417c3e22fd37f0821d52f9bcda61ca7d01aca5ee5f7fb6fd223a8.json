@@ -1,0 +1,11 @@
+{
+ "tag": "parse",
+ "model": "gemini-3.5-flash-lite",
+ "attempt": 0,
+ "text": "{\n  \"gross_salary\": {\n    \"status\": \"value\",\n    \"evidence\": \"22 LPA\",\n    \"rupees_per_year\": 2200000\n  },\n  \"age\": {\n    \"status\": \"value\",\n    \"evidence\": \"31 years old\",\n    \"age_band\": \"below_60\"\n  },\n  \"basic_da\": {\n    \"status\": \"value\",\n    \"evidence\": \"basic and DA of 11,00,000\",\n    \"rupees_per_year\": 1100000\n  },\n  \"hra_received\": {\n    \"status\": \"value\",\n    \"evidence\": \"HRA of 5,50,000\",\n    \"rupees_per_year\": 550000\n  },\n  \"rent_paid\": {\n    \"status\": \"value\",\n    \"evidence\": \"Rent is 6 lakh a year\",\n    \"rupees_per_year\": 600000\n  },\n  \"sec_80c\": {\n    \"status\": \"value\",\n    \"evidence\": \"80C 1.5L\",\n    \"rupees_per_year\": 150000\n  },\n  \"sec_80ccd1b\": {\n    \"status\": \"value\",\n    \"evidence\": \"NPS 50k\",\n    \"rupees_per_year\": 50000\n  },\n  \"sec_80d_self\": {\n    \"status\": \"none\",\n    \"evidence\": \"no health insurance\"\n  },\n  \"sec_80d_parents\": {\n    \"status\": \"none\",\n    \"evidence\": \"no health insurance\"\n  },\n  \"home_loan_interest\": {\n    \"status\": \"none\",\n    \"evidence\": \"no home loan\"\n  },\n  \"city\": \"Delhi\",\n  \"parents_senior\": \"unknown\",\n  \"unsupported_income_or_status\": false,\n  \"unsupported_evidence\": \"\",\n  \"clarify_topics\": []\n}",
+ "finish_reason": "STOP",
+ "input_tokens": 709,
+ "output_tokens": 506,
+ "latency_s": 2.038,
+ "recorded_at": "2026-11-06T20:48:28+0530"
+}

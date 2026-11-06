@@ -1,0 +1,11 @@
+{
+ "tag": "dq-exact_duplicates",
+ "model": "gemini-3.5-flash-lite",
+ "attempt": 0,
+ "text": "{\n  \"flagged\": [\n    {\n      \"row_id\": 23,\n      \"observed\": \"58892667\",\n      \"expected\": \"Unique across dataset\",\n      \"reason\": \"Exact repeat of row 0\"\n    },\n    {\n      \"row_id\": 33,\n      \"observed\": \"58901848\",\n      \"expected\": \"Unique across dataset\",\n      \"reason\": \"Exact repeat of row 10\"\n    },\n    {\n      \"row_id\": 34,\n      \"observed\": \"58895886\",\n      \"expected\": \"Unique across dataset\",\n      \"reason\": \"Exact repeat of row 29\"\n    },\n    {\n      \"row_id\": 35,\n      \"observed\": \"58902019\",\n      \"expected\": \"Unique across dataset\",\n      \"reason\": \"Exact repeat of row 15\"\n    },\n    {\n      \"row_id\": 36,\n      \"observed\": \"58894068\",\n      \"expected\": \"Unique across dataset\",\n      \"reason\": \"Exact repeat of row 25\"\n    },\n    {\n      \"row_id\": 38,\n      \"observed\": \"58900469\",\n      \"expected\": \"Unique across dataset\",\n      \"reason\": \"Exact repeat of row 27\"\n    }\n  ]\n}",
+ "finish_reason": "STOP",
+ "input_tokens": 3852,
+ "output_tokens": 348,
+ "latency_s": 1.691,
+ "recorded_at": "2026-11-06T21:10:32+0530"
+}

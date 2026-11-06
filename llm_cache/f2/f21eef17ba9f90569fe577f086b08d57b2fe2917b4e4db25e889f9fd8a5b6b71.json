@@ -1,0 +1,11 @@
+{
+ "tag": "query-2025-26-rules2025-26",
+ "model": "gemini-3.5-flash-lite",
+ "attempt": 0,
+ "text": "{\n  \"old\": {\n    \"total_income\": 40000,\n    \"slab_tax\": 0,\n    \"rebate\": 0,\n    \"surcharge\": 0,\n    \"cess\": 0,\n    \"total_before_rounding\": 0,\n    \"tax_payable\": 0,\n    \"trace\": [\n      {\n        \"group\": \"income\",\n        \"clause\": \"S17\",\n        \"description\": \"Gross salary\",\n        \"amount\": 75000\n      },\n      {\n        \"group\": \"income\",\n        \"clause\": \"S16-ia\",\n        \"description\": \"Standard deduction\",\n        \"amount\": -35000\n      },\n      {\n        \"group\": \"income\",\n        \"clause\": \"S288A\",\n        \"description\": \"Rounding total income\",\n        \"amount\": 0\n      }\n    ]\n  },\n  \"new\": {\n    \"total_income\": 0,\n    \"slab_tax\": 0,\n    \"rebate\": 0,\n    \"surcharge\": 0,\n    \"cess\": 0,\n    \"total_before_rounding\": 0,\n    \"tax_payable\": 0,\n    \"trace\": [\n      {\n        \"group\": \"income\",\n        \"clause\": \"S17\",\n        \"description\": \"Gross salary\",\n        \"amount\": 75000\n      },\n      {\n        \"group\": \"income\",\n        \"clause\": \"S16-ia\",\n        \"description\": \"Standard deduction\",\n        \"amount\": -75000\n      },\n      {\n        \"group\": \"income\",\n        \"clause\": \"S288A\",\n        \"description\": \"Rounding total income\",\n        \"amount\": 0\n      }\n    ]\n  },\n  \"recommended\": \"new\"\n}",
+ "finish_reason": "STOP",
+ "input_tokens": 2572,
+ "output_tokens": 453,
+ "latency_s": 2.875,
+ "recorded_at": "2026-11-06T21:07:04+0530"
+}

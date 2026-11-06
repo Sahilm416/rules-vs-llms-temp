@@ -1,0 +1,11 @@
+{
+ "tag": "parse",
+ "model": "gemini-3.5-flash-lite",
+ "attempt": 0,
+ "text": "{\n  \"gross_salary\": {\n    \"status\": \"value\",\n    \"evidence\": \"Annual gross salary of Rs. 5,50,000\",\n    \"rupees_per_year\": 550000\n  },\n  \"age\": {\n    \"status\": \"value\",\n    \"evidence\": \"Forty-two years old\",\n    \"age_band\": \"below_60\"\n  },\n  \"basic_da\": {\n    \"status\": \"unknown\",\n    \"evidence\": \"\"\n  },\n  \"hra_received\": {\n    \"status\": \"none\",\n    \"evidence\": \"No HRA\"\n  },\n  \"rent_paid\": {\n    \"status\": \"none\",\n    \"evidence\": \"no rent\"\n  },\n  \"sec_80c\": {\n    \"status\": \"none\",\n    \"evidence\": \"no tax-saving investments\"\n  },\n  \"sec_80ccd1b\": {\n    \"status\": \"none\",\n    \"evidence\": \"no tax-saving investments\"\n  },\n  \"sec_80d_self\": {\n    \"status\": \"none\",\n    \"evidence\": \"no tax-saving investments\"\n  },\n  \"sec_80d_parents\": {\n    \"status\": \"none\",\n    \"evidence\": \"no tax-saving investments\"\n  },\n  \"home_loan_interest\": {\n    \"status\": \"none\",\n    \"evidence\": \"no loans\"\n  },\n  \"city\": \"\",\n  \"parents_senior\": \"unknown\",\n  \"unsupported_income_or_status\": false,\n  \"unsupported_evidence\": \"\",\n  \"clarify_topics\": []\n}",
+ "finish_reason": "STOP",
+ "input_tokens": 671,
+ "output_tokens": 401,
+ "latency_s": 2.85,
+ "recorded_at": "2026-11-06T20:49:47+0530"
+}

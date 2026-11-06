@@ -1,0 +1,11 @@
+{
+ "tag": "parse",
+ "model": "gemini-3.5-flash-lite",
+ "attempt": 0,
+ "text": "{\n  \"gross_salary\": {\n    \"status\": \"unknown\",\n    \"evidence\": \"Haath mein 70k aata hai har mahine\"\n  },\n  \"age\": {\n    \"status\": \"value\",\n    \"evidence\": \"umar 26\",\n    \"age_band\": \"below_60\"\n  },\n  \"basic_da\": {\n    \"status\": \"unknown\",\n    \"evidence\": \"\"\n  },\n  \"hra_received\": {\n    \"status\": \"unknown\",\n    \"evidence\": \"\"\n  },\n  \"rent_paid\": {\n    \"status\": \"none\",\n    \"evidence\": \"Koi deduction nahi.\"\n  },\n  \"sec_80c\": {\n    \"status\": \"none\",\n    \"evidence\": \"Koi deduction nahi.\"\n  },\n  \"sec_80ccd1b\": {\n    \"status\": \"none\",\n    \"evidence\": \"Koi deduction nahi.\"\n  },\n  \"sec_80d_self\": {\n    \"status\": \"none\",\n    \"evidence\": \"Koi deduction nahi.\"\n  },\n  \"sec_80d_parents\": {\n    \"status\": \"none\",\n    \"evidence\": \"Koi deduction nahi.\"\n  },\n  \"home_loan_interest\": {\n    \"status\": \"none\",\n    \"evidence\": \"Koi deduction nahi.\"\n  },\n  \"city\": \"\",\n  \"parents_senior\": \"unknown\",\n  \"unsupported_income_or_status\": false,\n  \"unsupported_evidence\": \"\",\n  \"clarify_topics\": [\n    \"salary\"\n  ]\n}",
+ "finish_reason": "STOP",
+ "input_tokens": 656,
+ "output_tokens": 378,
+ "latency_s": 1.546,
+ "recorded_at": "2026-11-06T20:51:17+0530"
+}

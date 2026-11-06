@@ -1,0 +1,11 @@
+{
+ "tag": "dq-complaint_descriptor_mismatch",
+ "model": "gemini-3.5-flash-lite",
+ "attempt": 0,
+ "text": "{\n  \"flagged\": [\n    {\n      \"row_id\": 0,\n      \"observed\": \"School Crossing\",\n      \"expected\": \"A descriptor related to a dangling street sign, such as Loose or Hanging\",\n      \"reason\": \"The descriptor 'School Crossing' indicates a street sign type or location, whereas the complaint type 'Street Sign - Dangling' refers to the physical condition of the sign.\"\n    }\n  ]\n}",
+ "finish_reason": "STOP",
+ "input_tokens": 82,
+ "output_tokens": 99,
+ "latency_s": 1.353,
+ "recorded_at": "2026-11-06T21:13:23+0530"
+}

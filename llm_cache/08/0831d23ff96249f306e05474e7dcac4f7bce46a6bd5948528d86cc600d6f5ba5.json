@@ -1,0 +1,11 @@
+{
+ "tag": "dq-renamed_dropped_column",
+ "model": "gemini-3.5-flash-lite",
+ "attempt": 0,
+ "text": "{\n  \"alert\": false,\n  \"columns\": [\n    \"unique_key\",\n    \"created_date\",\n    \"closed_date\",\n    \"agency\",\n    \"agency_name\",\n    \"complaint_type\",\n    \"descriptor\",\n    \"descriptor_2\",\n    \"location_type\",\n    \"incident_zip\",\n    \"incident_address\",\n    \"street_name\",\n    \"cross_street_1\",\n    \"cross_street_2\",\n    \"intersection_street_1\",\n    \"intersection_street_2\",\n    \"address_type\",\n    \"city\",\n    \"landmark\",\n    \"facility_type\",\n    \"status\",\n    \"due_date\",\n    \"resolution_description\",\n    \"resolution_action_updated_date\",\n    \"community_board\",\n    \"council_district\",\n    \"police_precinct\",\n    \"bbl\",\n    \"borough\",\n    \"x_coordinate_state_plane\",\n    \"y_coordinate_state_plane\",\n    \"open_data_channel_type\",\n    \"park_facility_name\",\n    \"park_borough\",\n    \"vehicle_type\",\n    \"taxi_company_borough\",\n    \"taxi_pick_up_location\",\n    \"bridge_highway_name\",\n    \"bridge_highway_direction\",\n    \"road_ramp\",\n    \"bridge_highway_segment\",\n    \"latitude\",\n    \"longitude\",\n    \"location\"\n  ],\n  \"observed\": \"All expected columns are present in the batch columns.\",\n  \"expected\": \"All expected columns are present in the batch columns.\",\n  \"reason\": \"No columns have been renamed or dropped compared with the expected columns.\"\n}",
+ "finish_reason": "STOP",
+ "input_tokens": 1066,
+ "output_tokens": 399,
+ "latency_s": 2.464,
+ "recorded_at": "2026-11-06T21:06:48+0530"
+}

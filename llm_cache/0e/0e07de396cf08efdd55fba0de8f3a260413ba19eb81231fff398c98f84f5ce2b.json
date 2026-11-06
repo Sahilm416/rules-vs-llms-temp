@@ -1,0 +1,11 @@
+{
+ "tag": "dq-resolution_status_contradiction",
+ "model": "gemini-3.5-flash-lite",
+ "attempt": 0,
+ "text": "{\n  \"flagged\": [\n    {\n      \"row_id\": 7,\n      \"observed\": \"Closed\",\n      \"expected\": \"Open or In Progress\",\n      \"reason\": \"Resolution text indicates a work order was created and addressing it can take up to a year or more, which contradicts a Closed status.\"\n    },\n    {\n      \"row_id\": 9,\n      \"observed\": \"Closed\",\n      \"expected\": \"Open or In Progress\",\n      \"reason\": \"Resolution text indicates a work order was created and addressing it can take up to a year or more, which contradicts a Closed status.\"\n    },\n    {\n      \"row_id\": 13,\n      \"observed\": \"Closed\",\n      \"expected\": \"Open or In Progress\",\n      \"reason\": \"Resolution text indicates a work order was created and addressing it can take up to a year or more, which contradicts a Closed status.\"\n    },\n    {\n      \"row_id\": 31,\n      \"observed\": \"Closed\",\n      \"expected\": \"Open or In Progress\",\n      \"reason\": \"Resolution text indicates a work order was created and addressing it can take up to a year or more, which contradicts a Closed status.\"\n    },\n    {\n      \"row_id\": 33,\n      \"observed\": \"Closed\",\n      \"expected\": \"Open or In Progress\",\n      \"reason\": \"Resolution text states the department will inspect the condition in the future (to be added to a curb contract taking 3-5 years), which contradicts a Closed status.\"\n    }\n  ]\n}",
+ "finish_reason": "STOP",
+ "input_tokens": 1949,
+ "output_tokens": 358,
+ "latency_s": 2.427,
+ "recorded_at": "2026-11-06T21:07:33+0530"
+}

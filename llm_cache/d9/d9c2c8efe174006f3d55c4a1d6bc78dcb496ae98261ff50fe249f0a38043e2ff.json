@@ -1,0 +1,11 @@
+{
+ "tag": "dq-null_spike",
+ "model": "gemini-3.5-flash-lite",
+ "attempt": 0,
+ "text": "{\n  \"alert\": false,\n  \"columns\": [],\n  \"observed\": \"0.0\",\n  \"expected\": \"0.0\",\n  \"reason\": \"No significant spike in null values was observed for any agency compared to the reference rates.\"\n}",
+ "finish_reason": "STOP",
+ "input_tokens": 2839,
+ "output_tokens": 59,
+ "latency_s": 1.179,
+ "recorded_at": "2026-11-06T21:07:14+0530"
+}

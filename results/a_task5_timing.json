@@ -1,0 +1,17 @@
+{
+ "note": "An AI agent made these edits, so times are not what a person would take. Lines changed and failures are the portable evidence.",
+ "implementations": [
+  {
+   "label": "(a) Hand-coded rules",
+   "summary": "Scripted edit plus full test run took 1 s of wall clock; the agent's time composing the edit was not timed. 17 changed diff lines in one new TOML file, no engine code changed. All FY 2025-26 suite cases passed on the first run."
+  },
+  {
+   "label": "(b) LLM at query time",
+   "summary": "No code change: the prompt reads the new rule text file (11 new or changed lines). Every future request then costs money and time again. Correctness had to be re-measured, and could only be sampled within the free tier."
+  },
+  {
+   "label": "(c) LLM-compiled rules",
+   "summary": "About 15 minutes (approximate, not timed exactly) were lost to gemini-3.8-flash returning 503s, because the client's retry loop absorbed the time limit. The successful flash-lite compile took 10 s. Review and fixes were not separately timed: 4 defects found, 31 changed diff lines."
+  }
+ ]
+}

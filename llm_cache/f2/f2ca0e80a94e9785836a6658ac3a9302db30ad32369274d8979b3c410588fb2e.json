@@ -1,0 +1,11 @@
+{
+ "tag": "dq-complaint_descriptor_mismatch",
+ "model": "gemini-3.5-flash-lite",
+ "attempt": 0,
+ "text": "{\n  \"flagged\": [\n    {\n      \"row_id\": 9,\n      \"observed\": \"Abandoned boat left on the shoreline\",\n      \"expected\": \"Posted Parking Sign Violation\",\n      \"reason\": \"An abandoned boat on the shoreline is not an illegal parking complaint.\"\n    },\n    {\n      \"row_id\": 10,\n      \"observed\": \"Graffiti sprayed on storefront shutter\",\n      \"expected\": \"Damaged Tree\",\n      \"reason\": \"Graffiti on a storefront shutter does not describe a damaged tree.\"\n    },\n    {\n      \"row_id\": 11,\n      \"observed\": \"Snake\",\n      \"expected\": \"Posted Parking Sign Violation\",\n      \"reason\": \"A snake is an animal/pest issue, not an illegal parking violation.\"\n    },\n    {\n      \"row_id\": 24,\n      \"observed\": \"Crane/Suspension Scaffold - No Permit/License/Cert./Unsafe/Illegal\",\n      \"expected\": \"Homeless Person Assistance\",\n      \"reason\": \"A crane or suspension scaffold safety issue does not fit homeless person assistance.\"\n    },\n    {\n      \"row_id\": 27,\n      \"observed\": \"Graffiti sprayed on storefront shutter\",\n      \"expected\": \"Loud Music/Party\",\n      \"reason\": \"Graffiti does not fit a residential noise complaint.\"\n    },\n    {\n      \"row_id\": 30,\n      \"observed\": \"Driver Complaint\",\n      \"expected\": \"Loud Music/Party\",\n      \"reason\": \"A driver complaint does not fit a residential noise complaint.\"\n    },\n    {\n      \"row_id\": 33,\n      \"observed\": \"Noise, Ice Cream Truck (NR4)\",\n      \"expected\": \"Loud Music/Party\",\n      \"reason\": \"An ice cream truck noise descriptor does not fit a residential noise complaint.\"\n    },\n    {\n      \"row_id\": 38,\n      \"observed\": \"Electrical Wiring Defective/Exposed\",\n      \"expected\": \"Loud Music/Party\",\n      \"reason\": \"Electrical wiring defects do not fit a residential noise complaint.\"\n    }\n  ]\n}",
+ "finish_reason": "STOP",
+ "input_tokens": 1237,
+ "output_tokens": 498,
+ "latency_s": 1.896,
+ "recorded_at": "2026-11-06T21:06:34+0530"
+}

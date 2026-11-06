@@ -1,0 +1,11 @@
+{
+ "tag": "parse",
+ "model": "gemini-3.5-flash-lite",
+ "attempt": 0,
+ "text": "{\n  \"gross_salary\": {\n    \"status\": \"value\",\n    \"evidence\": \"monthly gross salary 2 lakh\",\n    \"rupees_per_year\": 2400000\n  },\n  \"age\": {\n    \"status\": \"value\",\n    \"evidence\": \"age 44\",\n    \"age_band\": \"below_60\"\n  },\n  \"basic_da\": {\n    \"status\": \"unknown\",\n    \"evidence\": \"\"\n  },\n  \"hra_received\": {\n    \"status\": \"none\",\n    \"evidence\": \"no rent, home loan nahi\"\n  },\n  \"rent_paid\": {\n    \"status\": \"none\",\n    \"evidence\": \"rent nahi\"\n  },\n  \"sec_80c\": {\n    \"status\": \"none\",\n    \"evidence\": \"no 80C\"\n  },\n  \"sec_80ccd1b\": {\n    \"status\": \"none\",\n    \"evidence\": \"no NPS\"\n  },\n  \"sec_80d_self\": {\n    \"status\": \"none\",\n    \"evidence\": \"apna insurance nahi\"\n  },\n  \"sec_80d_parents\": {\n    \"status\": \"value\",\n    \"evidence\": \"Parents ka health insurance 40 hazaar deta hu\",\n    \"rupees_per_year\": 40000\n  },\n  \"home_loan_interest\": {\n    \"status\": \"none\",\n    \"evidence\": \"home loan nahi\"\n  },\n  \"city\": \"\",\n  \"parents_senior\": \"yes\",\n  \"unsupported_income_or_status\": false,\n  \"unsupported_evidence\": \"\",\n  \"clarify_topics\": [\n    \"salary\",\n    \"deductions\"\n  ]\n}",
+ "finish_reason": "STOP",
+ "input_tokens": 690,
+ "output_tokens": 430,
+ "latency_s": 2.05,
+ "recorded_at": "2026-11-06T20:49:27+0530"
+}

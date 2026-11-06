@@ -1,0 +1,16 @@
+{
+ "2025-26": {
+  "model": "gemini-3.5-flash-lite",
+  "latency_s": 9.775,
+  "input_tokens": 2693,
+  "output_tokens": 4272,
+  "cost_usd": 0.011487899999999999
+ },
+ "2024-25": {
+  "model": "gemini-3.6-flash",
+  "latency_s": 114.021,
+  "input_tokens": 2634,
+  "output_tokens": 26157,
+  "cost_usd": 0.10006425
+ }
+}

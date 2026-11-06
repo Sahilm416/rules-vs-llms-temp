@@ -1,0 +1,11 @@
+{
+ "tag": "parse",
+ "model": "gemini-3.5-flash-lite",
+ "attempt": 0,
+ "text": "{\n  \"gross_salary\": {\n    \"status\": \"value\",\n    \"evidence\": \"50 lakh p.a. gross\",\n    \"rupees_per_year\": 5000000\n  },\n  \"age\": {\n    \"status\": \"value\",\n    \"evidence\": \"55y\",\n    \"age_band\": \"below_60\"\n  },\n  \"basic_da\": {\n    \"status\": \"unknown\",\n    \"evidence\": \"\"\n  },\n  \"hra_received\": {\n    \"status\": \"none\",\n    \"evidence\": \"no rent/hra\"\n  },\n  \"rent_paid\": {\n    \"status\": \"none\",\n    \"evidence\": \"no rent/hra\"\n  },\n  \"sec_80c\": {\n    \"status\": \"value\",\n    \"evidence\": \"80c 150000\",\n    \"rupees_per_year\": 150000\n  },\n  \"sec_80ccd1b\": {\n    \"status\": \"value\",\n    \"evidence\": \"nps 50000\",\n    \"rupees_per_year\": 50000\n  },\n  \"sec_80d_self\": {\n    \"status\": \"value\",\n    \"evidence\": \"80d 25000\",\n    \"rupees_per_year\": 25000\n  },\n  \"sec_80d_parents\": {\n    \"status\": \"none\",\n    \"evidence\": \"parents 80d nil\"\n  },\n  \"home_loan_interest\": {\n    \"status\": \"value\",\n    \"evidence\": \"home loan interest 200000\",\n    \"rupees_per_year\": 200000\n  },\n  \"city\": \"\",\n  \"parents_senior\": \"unknown\",\n  \"unsupported_income_or_status\": false,\n  \"unsupported_evidence\": \"\",\n  \"clarify_topics\": []\n}",
+ "finish_reason": "STOP",
+ "input_tokens": 701,
+ "output_tokens": 483,
+ "latency_s": 2.284,
+ "recorded_at": "2026-11-06T20:48:42+0530"
+}

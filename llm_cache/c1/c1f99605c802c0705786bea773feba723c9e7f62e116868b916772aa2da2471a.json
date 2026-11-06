@@ -1,0 +1,11 @@
+{
+ "tag": "dq-near_duplicates",
+ "model": "gemini-3.5-flash-lite",
+ "attempt": 0,
+ "text": "{\n  \"flagged\": [\n    {\n      \"row_id\": 24,\n      \"observed\": \"2023-10-07T12:25:43.000\",\n      \"expected\": \"Unique request or different time\",\n      \"reason\": \"Duplicate request with identical complaint_type, descriptor, and null address to row 17, just a few minutes later.\"\n    }\n  ]\n}",
+ "finish_reason": "STOP",
+ "input_tokens": 4815,
+ "output_tokens": 103,
+ "latency_s": 1.822,
+ "recorded_at": "2026-11-06T21:13:00+0530"
+}

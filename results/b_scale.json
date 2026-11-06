@@ -1,0 +1,20 @@
+{
+ "rows_per_day": 50000000,
+ "customers": 120,
+ "rows_per_customer_day_if_even": 416667,
+ "batches_per_day": 10000,
+ "average_rows_per_s": 579,
+ "measured_one_core_rows_per_s": 26643,
+ "cores_average": 0.02,
+ "cores_at_peak_assumption": 1,
+ "core_hours_per_day": 0.5,
+ "seconds_per_batch_offline": 0.19,
+ "llm_calls_per_day": 20000,
+ "llm_requests_per_minute_average": 13.9,
+ "hybrid_llm_usd_per_day": 44.5,
+ "hybrid_llm_usd_per_year": 16242,
+ "llm_only_usd_per_day": 22329.5,
+ "llm_only_cells_priced": 12,
+ "schema_mapping_one_time_usd_estimate": 0.14,
+ "peak_factor_assumption": 3
+}

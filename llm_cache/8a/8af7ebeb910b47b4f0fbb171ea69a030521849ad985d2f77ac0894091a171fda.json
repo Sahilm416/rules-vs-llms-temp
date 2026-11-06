@@ -1,0 +1,11 @@
+{
+ "tag": "parse",
+ "model": "gemini-3.5-flash-lite",
+ "attempt": 0,
+ "text": "{\n  \"gross_salary\": {\n    \"status\": \"value\",\n    \"evidence\": \"gross salary 10 lakh per year hai\",\n    \"rupees_per_year\": 1000000\n  },\n  \"age\": {\n    \"status\": \"value\",\n    \"evidence\": \"umar 28 saal hai\",\n    \"age_band\": \"below_60\"\n  },\n  \"basic_da\": {\n    \"status\": \"unknown\",\n    \"evidence\": \"\"\n  },\n  \"hra_received\": {\n    \"status\": \"unknown\",\n    \"evidence\": \"\"\n  },\n  \"rent_paid\": {\n    \"status\": \"none\",\n    \"evidence\": \"rent bhi nahi deta\"\n  },\n  \"sec_80c\": {\n    \"status\": \"none\",\n    \"evidence\": \"Koi investment nahi\"\n  },\n  \"sec_80ccd1b\": {\n    \"status\": \"none\",\n    \"evidence\": \"Koi investment nahi\"\n  },\n  \"sec_80d_self\": {\n    \"status\": \"none\",\n    \"evidence\": \"koi insurance nahi\"\n  },\n  \"sec_80d_parents\": {\n    \"status\": \"none\",\n    \"evidence\": \"koi insurance nahi\"\n  },\n  \"home_loan_interest\": {\n    \"status\": \"none\",\n    \"evidence\": \"koi loan nahi\"\n  },\n  \"city\": \"\",\n  \"parents_senior\": \"unknown\",\n  \"unsupported_income_or_status\": false,\n  \"unsupported_evidence\": \"\",\n  \"clarify_topics\": []\n}",
+ "finish_reason": "STOP",
+ "input_tokens": 672,
+ "output_tokens": 389,
+ "latency_s": 1.806,
+ "recorded_at": "2026-11-06T20:49:07+0530"
+}

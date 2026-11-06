@@ -1,0 +1,11 @@
+{
+ "tag": "parse",
+ "model": "gemini-3.5-flash-lite",
+ "attempt": 0,
+ "text": "{\n  \"gross_salary\": {\n    \"status\": \"value\",\n    \"evidence\": \"Gross 14 lakh saalana\",\n    \"rupees_per_year\": 1400000\n  },\n  \"age\": {\n    \"status\": \"value\",\n    \"evidence\": \"Main 35 ka hu\",\n    \"age_band\": \"below_60\"\n  },\n  \"basic_da\": {\n    \"status\": \"value\",\n    \"evidence\": \"basic plus DA 7 lakh\",\n    \"rupees_per_year\": 700000\n  },\n  \"hra_received\": {\n    \"status\": \"value\",\n    \"evidence\": \"HRA 2.8 lakh milta hai\",\n    \"rupees_per_year\": 280000\n  },\n  \"rent_paid\": {\n    \"status\": \"value\",\n    \"evidence\": \"Kiraya 15 hazaar mahina deta hu\",\n    \"rupees_per_year\": 180000\n  },\n  \"sec_80c\": {\n    \"status\": \"value\",\n    \"evidence\": \"80C dedh lakh\",\n    \"rupees_per_year\": 150000\n  },\n  \"sec_80ccd1b\": {\n    \"status\": \"none\",\n    \"evidence\": \"NPS ... kuch nahi\"\n  },\n  \"sec_80d_self\": {\n    \"status\": \"none\",\n    \"evidence\": \"insurance ... kuch nahi\"\n  },\n  \"sec_80d_parents\": {\n    \"status\": \"none\",\n    \"evidence\": \"insurance ... kuch nahi\"\n  },\n  \"home_loan_interest\": {\n    \"status\": \"none\",\n    \"evidence\": \"home loan kuch nahi\"\n  },\n  \"city\": \"Chennai\",\n  \"parents_senior\": \"unknown\",\n  \"unsupported_income_or_status\": false,\n  \"unsupported_evidence\": \"\",\n  \"clarify_topics\": []\n}",
+ "finish_reason": "STOP",
+ "input_tokens": 703,
+ "output_tokens": 491,
+ "latency_s": 1.782,
+ "recorded_at": "2026-11-06T20:49:14+0530"
+}

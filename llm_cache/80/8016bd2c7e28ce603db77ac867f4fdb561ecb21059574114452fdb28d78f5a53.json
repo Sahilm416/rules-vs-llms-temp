@@ -1,0 +1,11 @@
+{
+ "tag": "dq-near_duplicates",
+ "model": "gemini-3.5-flash-lite",
+ "attempt": 0,
+ "text": "{\n  \"flagged\": [\n    {\n      \"row_id\": 6,\n      \"observed\": \"59529695\",\n      \"expected\": \"Unique service request without duplicate submission\",\n      \"reason\": \"Duplicate of row 5 (same address, complaint type, descriptor, and nearly identical timestamp).\"\n    },\n    {\n      \"row_id\": 21,\n      \"observed\": \"59539395\",\n      \"expected\": \"Unique service request without duplicate submission\",\n      \"reason\": \"Duplicate of row 20 (same address, complaint type, descriptor, and nearly identical timestamp).\"\n    },\n    {\n      \"row_id\": 26,\n      \"observed\": \"59540744\",\n      \"expected\": \"Unique service request without duplicate submission\",\n      \"reason\": \"Duplicate of row 25 (same address, complaint type, descriptor, and identical timestamp).\"\n    },\n    {\n      \"row_id\": 30,\n      \"observed\": \"59537828\",\n      \"expected\": \"Unique service request without duplicate submission\",\n      \"reason\": \"Duplicate of row 29 (same address, complaint type, descriptor, and identical timestamp).\"\n    },\n    {\n      \"row_id\": 36,\n      \"observed\": \"59539225\",\n      \"expected\": \"Unique service request without duplicate submission\",\n      \"reason\": \"Duplicate of row 35 (same address, complaint type, descriptor, and nearly identical timestamp).\"\n    }\n  ]\n}",
+ "finish_reason": "STOP",
+ "input_tokens": 4633,
+ "output_tokens": 364,
+ "latency_s": 3.228,
+ "recorded_at": "2026-11-06T21:13:21+0530"
+}

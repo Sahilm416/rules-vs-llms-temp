@@ -1,0 +1,11 @@
+{
+ "tag": "parse",
+ "model": "gemini-3.5-flash-lite",
+ "attempt": 0,
+ "text": "{\n  \"gross_salary\": {\n    \"status\": \"value\",\n    \"evidence\": \"gross salary 9,60,000 a year\",\n    \"rupees_per_year\": 960000\n  },\n  \"age\": {\n    \"status\": \"value\",\n    \"evidence\": \"68 years old\",\n    \"age_band\": \"60_to_79\"\n  },\n  \"basic_da\": {\n    \"status\": \"unknown\",\n    \"evidence\": \"\"\n  },\n  \"hra_received\": {\n    \"status\": \"unknown\",\n    \"evidence\": \"\"\n  },\n  \"rent_paid\": {\n    \"status\": \"unknown\",\n    \"evidence\": \"\"\n  },\n  \"sec_80c\": {\n    \"status\": \"none\",\n    \"evidence\": \"I have no deductions or investments of any kind.\"\n  },\n  \"sec_80ccd1b\": {\n    \"status\": \"none\",\n    \"evidence\": \"I have no deductions or investments of any kind.\"\n  },\n  \"sec_80d_self\": {\n    \"status\": \"none\",\n    \"evidence\": \"I have no deductions or investments of any kind.\"\n  },\n  \"sec_80d_parents\": {\n    \"status\": \"none\",\n    \"evidence\": \"I have no deductions or investments of any kind.\"\n  },\n  \"home_loan_interest\": {\n    \"status\": \"none\",\n    \"evidence\": \"I have no deductions or investments of any kind.\"\n  },\n  \"city\": \"\",\n  \"parents_senior\": \"unknown\",\n  \"unsupported_income_or_status\": false,\n  \"unsupported_evidence\": \"\",\n  \"clarify_topics\": []\n}",
+ "finish_reason": "STOP",
+ "input_tokens": 676,
+ "output_tokens": 417,
+ "latency_s": 1.672,
+ "recorded_at": "2026-11-06T20:47:49+0530"
+}

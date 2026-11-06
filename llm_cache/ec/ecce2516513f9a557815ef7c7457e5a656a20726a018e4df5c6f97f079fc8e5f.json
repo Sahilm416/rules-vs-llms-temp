@@ -1,0 +1,11 @@
+{
+ "tag": "dq-closed_before_created",
+ "model": "gemini-3.5-flash-lite",
+ "attempt": 0,
+ "text": "{\"flagged\": []}",
+ "finish_reason": "STOP",
+ "input_tokens": 3621,
+ "output_tokens": 6,
+ "latency_s": 1.589,
+ "recorded_at": "2026-11-06T21:07:19+0530"
+}

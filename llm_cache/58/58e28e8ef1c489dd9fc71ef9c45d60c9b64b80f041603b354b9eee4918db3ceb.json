@@ -1,0 +1,11 @@
+{
+ "tag": "dq-type_change",
+ "model": "gemini-3.5-flash-lite",
+ "attempt": 0,
+ "text": "{\n  \"alert\": true,\n  \"columns\": [\"unique_key\", \"latitude\", \"longitude\", \"x_coordinate_state_plane\", \"y_coordinate_state_plane\"],\n  \"observed\": \"number\",\n  \"expected\": \"string\",\n  \"reason\": \"The reference examples show that unique_key, latitude, longitude, x_coordinate_state_plane, and y_coordinate_state_plane are formatted as strings, but the batch data provides them as numeric types.\"\n}",
+ "finish_reason": "STOP",
+ "input_tokens": 2534,
+ "output_tokens": 110,
+ "latency_s": 1.238,
+ "recorded_at": "2026-11-06T21:04:01+0530"
+}

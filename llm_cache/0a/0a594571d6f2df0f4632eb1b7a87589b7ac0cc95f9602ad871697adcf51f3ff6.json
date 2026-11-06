@@ -1,0 +1,11 @@
+{
+ "tag": "dq-near_duplicates",
+ "model": "gemini-3.5-flash-lite",
+ "attempt": 0,
+ "text": "{\n  \"flagged\": [\n    {\n      \"row_id\": 11,\n      \"observed\": \"created_date: 2023-12-06T08:24:51.000, incident_address: 1567 BROADWAY\",\n      \"expected\": \"unique request distinct from row 10\",\n      \"reason\": \"Exact same timestamp and address as row 10, likely a duplicate submission of the same encampment complaint with a different unique_key.\"\n    },\n    {\n      \"row_id\": 26,\n      \"observed\": \"created_date: 2023-12-06T11:03:08.000, incident_address: 46 WEST   73 STREET\",\n      \"expected\": \"unique request distinct from row 25\",\n      \"reason\": \"Almost identical timestamp and same address as row 25, representing a duplicate report minutes apart.\"\n    },\n    {\n      \"row_id\": 30,\n      \"observed\": \"created_date: 2023-12-06T11:46:22.000, incident_address: 430 WEST   37 STREET\",\n      \"expected\": \"unique request distinct from row 29\",\n      \"reason\": \"Exact same timestamp and address as row 29, representing a duplicate dispatch/report.\"\n    },\n    {\n      \"row_id\": 35,\n      \"observed\": \"created_date: 2023-12-06T12:31:05.000, incident_address: 214 WEST  102 STREET\",\n      \"expected\": \"unique request distinct from row 2\",\n      \"reason\": \"Same complaint type, descriptor, and address as row 2, filed hours later by the same caller context.\"\n    },\n    {\n      \"row_id\": 37,\n      \"observed\": \"created_date: 2023-12-06T12:56:26.000, incident_address: 214 WEST  102 STREET\",\n      \"expected\": \"unique request distinct from rows 2 and 35\",\n      \"reason\": \"Repeated submission for the same helicopter noise at 214 WEST 102 STREET.\"\n    },\n    {\n      \"row_id\": 39,\n      \"observed\": \"created_date: 2023-12-06T13:12:30.000, incident_address: 214 WEST  102 STREET\",\n      \"expected\": \"unique request distinct from rows 2, 35, and 37\",\n      \"reason\": \"Yet another repeated submission for the exact same address and complaint type.\"\n    }\n  ]\n}",
+ "finish_reason": "STOP",
+ "input_tokens": 4826,
+ "output_tokens": 665,
+ "latency_s": 2.564,
+ "recorded_at": "2026-11-06T21:13:29+0530"
+}

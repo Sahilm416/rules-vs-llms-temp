@@ -1,0 +1,11 @@
+{
+ "tag": "dq-near_duplicates",
+ "model": "gemini-3.5-flash-lite",
+ "attempt": 0,
+ "text": "{\"flagged\": [{\"row_id\": 13, \"observed\": \"770 FAILE STREET\", \"expected\": \"770 FAILE STREET\", \"reason\": \"Duplicate request for DOOR/WINDOW at the same address within minutes of row 10.\"}, {\"row_id\": 21, \"observed\": \"826 EAS T  16 STREET\", \"expected\": \"826 EAST   16 STREET\", \"reason\": \"Duplicate request for UNSANITARY CONDITION at nearly the same address and timestamp as row 11.\"}, {\"row_id\": 33, \"observed\": \"3152 BRIGHTON   6 STREET\", \"expected\": \"3152 BRIGHTON    6 STREET\", \"reason\": \"Duplicate request for Noise - Residential at the same address and shortly after row 31.\"}, {\"row_id\": 34, \"observed\": \"330 WEST   45 STREET\", \"expected\": \"330 WEST   45 STREET\", \"reason\": \"Duplicate request for Street Light Condition at the same address and minute as row 18.\"}, {\"row_id\": 35, \"observed\": \"EAST  188 STRET\", \"expected\": \"EAST  188 STREET\", \"reason\": \"Duplicate request for Noise - Residential at the same address and shortly after row 30.\"}, {\"row_id\": 39, \"observed\": \"1625 YORK AVENUE\", \"expected\": \"1625 YORK AVENUE\", \"reason\": \"Duplicate request for Sidewalk Condition at the exact same address and minute as row 38.\"}]}",
+ "finish_reason": "STOP",
+ "input_tokens": 4883,
+ "output_tokens": 346,
+ "latency_s": 1.868,
+ "recorded_at": "2026-11-06T21:10:37+0530"
+}

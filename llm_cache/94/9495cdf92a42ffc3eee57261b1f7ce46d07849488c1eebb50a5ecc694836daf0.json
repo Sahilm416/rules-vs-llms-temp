@@ -1,0 +1,11 @@
+{
+ "tag": "parse",
+ "model": "gemini-3.5-flash-lite",
+ "attempt": 0,
+ "text": "{\n  \"gross_salary\": {\n    \"status\": \"value\",\n    \"evidence\": \"15 LPA\",\n    \"rupees_per_year\": 1500000\n  },\n  \"age\": {\n    \"status\": \"value\",\n    \"evidence\": \"I'm 42\",\n    \"age_band\": \"below_60\"\n  },\n  \"basic_da\": {\n    \"status\": \"unknown\",\n    \"evidence\": \"\"\n  },\n  \"hra_received\": {\n    \"status\": \"unknown\",\n    \"evidence\": \"\"\n  },\n  \"rent_paid\": {\n    \"status\": \"unknown\",\n    \"evidence\": \"\"\n  },\n  \"sec_80c\": {\n    \"status\": \"none\",\n    \"evidence\": \"No deductions\"\n  },\n  \"sec_80ccd1b\": {\n    \"status\": \"none\",\n    \"evidence\": \"No deductions\"\n  },\n  \"sec_80d_self\": {\n    \"status\": \"none\",\n    \"evidence\": \"No deductions\"\n  },\n  \"sec_80d_parents\": {\n    \"status\": \"none\",\n    \"evidence\": \"No deductions\"\n  },\n  \"home_loan_interest\": {\n    \"status\": \"none\",\n    \"evidence\": \"No deductions\"\n  },\n  \"city\": \"\",\n  \"parents_senior\": \"unknown\",\n  \"unsupported_income_or_status\": true,\n  \"unsupported_evidence\": \"plus 6 lakh from my side business\",\n  \"clarify_topics\": [\n    \"unsupported\"\n  ]\n}",
+ "finish_reason": "STOP",
+ "input_tokens": 659,
+ "output_tokens": 391,
+ "latency_s": 1.582,
+ "recorded_at": "2026-11-06T20:52:28+0530"
+}

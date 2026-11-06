@@ -1,0 +1,11 @@
+{
+ "tag": "parse",
+ "model": "gemini-3.5-flash-lite",
+ "attempt": 0,
+ "text": "{\n  \"gross_salary\": {\n    \"status\": \"value\",\n    \"evidence\": \"gross 10 LPA\",\n    \"rupees_per_year\": 1000000\n  },\n  \"age\": {\n    \"status\": \"value\",\n    \"evidence\": \"Main 30 ka hu\",\n    \"age_band\": \"below_60\"\n  },\n  \"basic_da\": {\n    \"status\": \"unknown\",\n    \"evidence\": \"\"\n  },\n  \"hra_received\": {\n    \"status\": \"unknown\",\n    \"evidence\": \"\"\n  },\n  \"rent_paid\": {\n    \"status\": \"none\",\n    \"evidence\": \"Koi deduction nahi.\"\n  },\n  \"sec_80c\": {\n    \"status\": \"none\",\n    \"evidence\": \"Koi deduction nahi.\"\n  },\n  \"sec_80ccd1b\": {\n    \"status\": \"none\",\n    \"evidence\": \"Koi deduction nahi.\"\n  },\n  \"sec_80d_self\": {\n    \"status\": \"none\",\n    \"evidence\": \"Koi deduction nahi.\"\n  },\n  \"sec_80d_parents\": {\n    \"status\": \"none\",\n    \"evidence\": \"Koi deduction nahi.\"\n  },\n  \"home_loan_interest\": {\n    \"status\": \"none\",\n    \"evidence\": \"Koi deduction nahi.\"\n  },\n  \"city\": \"\",\n  \"parents_senior\": \"unknown\",\n  \"unsupported_income_or_status\": true,\n  \"unsupported_evidence\": \"freelancing se 3 lakh extra kamata hu\",\n  \"clarify_topics\": [\n    \"unsupported\"\n  ]\n}",
+ "finish_reason": "STOP",
+ "input_tokens": 661,
+ "output_tokens": 404,
+ "latency_s": 1.533,
+ "recorded_at": "2026-11-06T20:52:48+0530"
+}

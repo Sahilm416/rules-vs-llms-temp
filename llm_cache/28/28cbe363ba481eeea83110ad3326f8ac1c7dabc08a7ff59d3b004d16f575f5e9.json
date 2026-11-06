@@ -1,0 +1,11 @@
+{
+ "tag": "dq-zip_borough_mismatch",
+ "model": "gemini-3.5-flash-lite",
+ "attempt": 0,
+ "text": "{\n  \"flagged\": [\n    {\n      \"row_id\": 0,\n      \"observed\": \"10469\",\n      \"expected\": \"BRONX\",\n      \"reason\": \"ZIP code 10469 belongs to Bronx, not BROOKLYN\"\n    },\n    {\n      \"row_id\": 1,\n      \"observed\": \"10468\",\n      \"expected\": \"BRONX\",\n      \"reason\": \"ZIP code 10468 belongs to Bronx, not MANHATTAN\"\n    },\n    {\n      \"row_id\": 2,\n      \"observed\": \"10310\",\n      \"expected\": \"STATEN ISLAND\",\n      \"reason\": \"ZIP code 10310 belongs to Staten Island, not BRONX\"\n    },\n    {\n      \"row_id\": 9,\n      \"observed\": \"11435\",\n      \"expected\": \"QUEENS\",\n      \"reason\": \"ZIP code 11435 belongs to Queens, not BRONX\"\n    },\n    {\n      \"row_id\": 14,\n      \"observed\": \"10303\",\n      \"expected\": \"STATEN ISLAND\",\n      \"reason\": \"ZIP code 10303 belongs to Staten Island, not BRONX\"\n    },\n    {\n      \"row_id\": 19,\n      \"observed\": \"11229\",\n      \"expected\": \"BROOKLYN\",\n      \"reason\": \"ZIP code 11229 belongs to Brooklyn, not MANHATTAN\"\n    },\n    {\n      \"row_id\": 21,\n      \"observed\": \"10037\",\n      \"expected\": \"MANHATTAN\",\n      \"reason\": \"ZIP code 10037 belongs to Manhattan, not QUEENS\"\n    },\n    {\n      \"row_id\": 22,\n      \"observed\": \"10453\",\n      \"expected\": \"BRONX\",\n      \"reason\": \"ZIP code 10453 belongs to Bronx, not QUEENS\"\n    },\n    {\n      \"row_id\": 28,\n      \"observed\": \"10459\",\n      \"expected\": \"BRONX\",\n      \"reason\": \"ZIP code 10459 belongs to Bronx, not MANHATTAN\"\n    },\n    {\n      \"row_id\": 33,\n      \"observed\": \"10451\",\n      \"expected\": \"BRONX\",\n      \"reason\": \"ZIP code 10451 belongs to Bronx, not STATEN ISLAND\"\n    },\n    {\n      \"row_id\": 36,\n      \"observed\": \"10460\",\n      \"expected\": \"BRONX\",\n      \"reason\": \"ZIP code 10460 belongs to Bronx, not MANHATTAN\"\n    }\n  ]\n}",
+ "finish_reason": "STOP",
+ "input_tokens": 2116,
+ "output_tokens": 696,
+ "latency_s": 2.558,
+ "recorded_at": "2026-11-06T21:05:13+0530"
+}

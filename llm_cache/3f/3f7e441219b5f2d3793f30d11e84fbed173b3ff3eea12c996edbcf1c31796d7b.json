@@ -1,0 +1,11 @@
+{
+ "tag": "parse",
+ "model": "gemini-3.5-flash-lite",
+ "attempt": 0,
+ "text": "{\n  \"gross_salary\": {\n    \"status\": \"value\",\n    \"evidence\": \"Monthly gross salary is Rs 1,00,000\",\n    \"rupees_per_year\": 1200000\n  },\n  \"age\": {\n    \"status\": \"value\",\n    \"evidence\": \"I'm 38.\",\n    \"age_band\": \"below_60\"\n  },\n  \"basic_da\": {\n    \"status\": \"unknown\",\n    \"evidence\": \"\"\n  },\n  \"hra_received\": {\n    \"status\": \"none\",\n    \"evidence\": \"get no HRA.\"\n  },\n  \"rent_paid\": {\n    \"status\": \"none\",\n    \"evidence\": \"pay no rent\"\n  },\n  \"sec_80c\": {\n    \"status\": \"value\",\n    \"evidence\": \"Term insurance and PF under 80C total 60k.\",\n    \"rupees_per_year\": 60000\n  },\n  \"sec_80ccd1b\": {\n    \"status\": \"none\",\n    \"evidence\": \"No NPS.\"\n  },\n  \"sec_80d_self\": {\n    \"status\": \"value\",\n    \"evidence\": \"Mediclaim 15k for myself.\",\n    \"rupees_per_year\": 15000\n  },\n  \"sec_80d_parents\": {\n    \"status\": \"none\",\n    \"evidence\": \"No parents' policy\"\n  },\n  \"home_loan_interest\": {\n    \"status\": \"none\",\n    \"evidence\": \"no home loan.\"\n  },\n  \"city\": \"\",\n  \"parents_senior\": \"unknown\",\n  \"unsupported_income_or_status\": false,\n  \"unsupported_evidence\": \"\",\n  \"clarify_topics\": []\n}",
+ "finish_reason": "STOP",
+ "input_tokens": 710,
+ "output_tokens": 446,
+ "latency_s": 1.752,
+ "recorded_at": "2026-11-06T20:48:15+0530"
+}

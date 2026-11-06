@@ -1,0 +1,11 @@
+{
+ "tag": "parse",
+ "model": "gemini-3.5-flash-lite",
+ "attempt": 0,
+ "text": "{\n  \"gross_salary\": {\n    \"status\": \"value\",\n    \"evidence\": \"80,000 per month gross\",\n    \"rupees_per_year\": 960000\n  },\n  \"age\": {\n    \"status\": \"value\",\n    \"evidence\": \"I turned 82 this year\",\n    \"age_band\": \"80_plus\"\n  },\n  \"basic_da\": {\n    \"status\": \"unknown\",\n    \"evidence\": \"\"\n  },\n  \"hra_received\": {\n    \"status\": \"unknown\",\n    \"evidence\": \"\"\n  },\n  \"rent_paid\": {\n    \"status\": \"none\",\n    \"evidence\": \"No other deductions, rent, or loans\"\n  },\n  \"sec_80c\": {\n    \"status\": \"none\",\n    \"evidence\": \"No other deductions, rent, or loans\"\n  },\n  \"sec_80ccd1b\": {\n    \"status\": \"none\",\n    \"evidence\": \"No other deductions, rent, or loans\"\n  },\n  \"sec_80d_self\": {\n    \"status\": \"none\",\n    \"evidence\": \"No other deductions, rent, or loans\"\n  },\n  \"sec_80d_parents\": {\n    \"status\": \"none\",\n    \"evidence\": \"No other deductions, rent, or loans\"\n  },\n  \"home_loan_interest\": {\n    \"status\": \"none\",\n    \"evidence\": \"No other deductions, rent, or loans\"\n  },\n  \"city\": \"\",\n  \"parents_senior\": \"unknown\",\n  \"unsupported_income_or_status\": false,\n  \"unsupported_evidence\": \"\",\n  \"clarify_topics\": []\n}",
+ "finish_reason": "STOP",
+ "input_tokens": 667,
+ "output_tokens": 417,
+ "latency_s": 2.001,
+ "recorded_at": "2026-11-06T20:47:56+0530"
+}

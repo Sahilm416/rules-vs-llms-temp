@@ -1,0 +1,11 @@
+{
+ "tag": "dq-near_duplicates",
+ "model": "gemini-3.5-flash-lite",
+ "attempt": 0,
+ "text": "{\n  \"flagged\": [\n    {\n      \"row_id\": 38,\n      \"observed\": \"58531884\",\n      \"expected\": \"Unique key and timestamp different from row 34 for identical complaint type and null address\",\n      \"reason\": \"Duplicate request with row 34 reporting the same Street Light Condition with null incident address shortly after.\"\n    }\n  ]\n}",
+ "finish_reason": "STOP",
+ "input_tokens": 4850,
+ "output_tokens": 95,
+ "latency_s": 1.515,
+ "recorded_at": "2026-11-06T21:07:10+0530"
+}

@@ -1,0 +1,11 @@
+{
+ "tag": "dq-near_duplicates",
+ "model": "gemini-3.5-flash-lite",
+ "attempt": 0,
+ "text": "{\n  \"flagged\": [\n    {\n      \"row_id\": 23,\n      \"observed\": \"58914614\",\n      \"expected\": \"Distinct request\",\n      \"reason\": \"Duplicate request for Drug Activity at 78-15 PARSONS BOULEVARD shortly after row 10.\"\n    }\n  ]\n}",
+ "finish_reason": "STOP",
+ "input_tokens": 3601,
+ "output_tokens": 85,
+ "latency_s": 2.096,
+ "recorded_at": "2026-11-06T21:12:51+0530"
+}

@@ -1,0 +1,710 @@
+{
+ "coverage": {
+  "days": 365,
+  "first_day": "2023-01-01",
+  "last_day": "2023-12-31",
+  "manifest": {
+   "source": "https://data.cityofnewyork.us/resource/erm2-nwe9.csv",
+   "snapshot_date": "2026-11-06",
+   "rows": 3224723,
+   "days": 365
+  },
+  "partial_2023": false,
+  "rows": 3224723,
+  "statement": "Full calendar year 2023"
+ },
+ "null_rate_pct_by_column": {
+  "taxi_company_borough": 99.94,
+  "road_ramp": 99.78,
+  "bridge_highway_direction": 99.62,
+  "due_date": 99.61,
+  "vehicle_type": 99.44,
+  "bridge_highway_name": 99.28,
+  "bridge_highway_segment": 99.28,
+  "taxi_pick_up_location": 98.91,
+  "facility_type": 93.43,
+  "descriptor_2": 52.77,
+  "landmark": 39.78,
+  "intersection_street_1": 32.56,
+  "intersection_street_2": 32.5,
+  "cross_street_1": 28.45,
+  "cross_street_2": 28.42,
+  "location_type": 11.89,
+  "bbl": 11.58,
+  "city": 5.08,
+  "street_name": 3.83,
+  "incident_address": 3.83,
+  "council_district": 2.19,
+  "closed_date": 1.92,
+  "latitude": 1.51,
+  "longitude": 1.51,
+  "location": 1.51,
+  "x_coordinate_state_plane": 1.5,
+  "y_coordinate_state_plane": 1.48,
+  "resolution_description": 1.43,
+  "descriptor": 1.22,
+  "incident_zip": 1.19,
+  "resolution_action_updated_date": 0.7,
+  "address_type": 0.5,
+  "unique_key": 0.0,
+  "created_date": 0.0,
+  "agency": 0.0,
+  "agency_name": 0.0,
+  "complaint_type": 0.0,
+  "status": 0.0,
+  "community_board": 0.0,
+  "police_precinct": 0.0,
+  "borough": 0.0,
+  "open_data_channel_type": 0.0,
+  "park_facility_name": 0.0,
+  "park_borough": 0.0
+ },
+ "findings": {
+  "closed_before_created": {
+   "count": 4313,
+   "pct": 0.134,
+   "examples": [
+    {
+     "unique_key": "56430946",
+     "created_date": "2023-01-03T09:17:00.000",
+     "closed_date": "2022-12-29T09:17:00.000",
+     "agency": "DOT",
+     "complaint_type": "Street Light Condition"
+    },
+    {
+     "unique_key": "56429902",
+     "created_date": "2023-01-03T09:18:00.000",
+     "closed_date": "2022-12-30T09:18:00.000",
+     "agency": "DOT",
+     "complaint_type": "Street Light Condition"
+    },
+    {
+     "unique_key": "56427599",
+     "created_date": "2023-01-03T09:19:00.000",
+     "closed_date": "2022-12-30T09:19:00.000",
+     "agency": "DOT",
+     "complaint_type": "Street Light Condition"
+    }
+   ]
+  },
+  "closed_equals_created": {
+   "count": 62611,
+   "pct": 1.942,
+   "examples": [
+    {
+     "unique_key": "56419266",
+     "created_date": "2023-01-01T02:02:43.000",
+     "closed_date": "2023-01-01T02:02:43.000",
+     "agency": "DOHMH"
+    },
+    {
+     "unique_key": "56418687",
+     "created_date": "2023-01-01T02:27:58.000",
+     "closed_date": "2023-01-01T02:27:58.000",
+     "agency": "DOHMH"
+    },
+    {
+     "unique_key": "56416430",
+     "created_date": "2023-01-01T03:19:40.000",
+     "closed_date": "2023-01-01T03:19:40.000",
+     "agency": "DOHMH"
+    }
+   ],
+   "note": "Zero-duration closures. Some may be instant auto-closures."
+  },
+  "closed_in_future": {
+   "count": 0,
+   "pct": 0.0,
+   "examples": [],
+   "note": "Compared with the run date, 2026-11-06."
+  },
+  "closed_status_without_closed_date": {
+   "count": 20251,
+   "pct": 0.628,
+   "examples": [
+    {
+     "unique_key": "56686328",
+     "status": "Closed",
+     "closed_date": null,
+     "agency": "DSNY",
+     "complaint_type": "Graffiti"
+    },
+    {
+     "unique_key": "57041474",
+     "status": "Closed",
+     "closed_date": null,
+     "agency": "DSNY",
+     "complaint_type": "Graffiti"
+    },
+    {
+     "unique_key": "57151736",
+     "status": "Closed",
+     "closed_date": null,
+     "agency": "DSNY",
+     "complaint_type": "Graffiti"
+    }
+   ]
+  },
+  "open_status_with_closed_date": {
+   "count": 6875,
+   "pct": 0.213,
+   "examples": [
+    {
+     "unique_key": "56421800",
+     "status": "Unspecified",
+     "closed_date": "2023-01-12T14:34:53.000",
+     "agency": "DSNY",
+     "complaint_type": "Missed Collection"
+    },
+    {
+     "unique_key": "56420192",
+     "status": "Open",
+     "closed_date": "2023-01-02T18:03:44.000",
+     "agency": "DOB",
+     "complaint_type": "Building/Use"
+    },
+    {
+     "unique_key": "56503858",
+     "status": "Assigned",
+     "closed_date": "2023-01-04T15:30:00.000",
+     "agency": "DOHMH",
+     "complaint_type": "Asbestos"
+    }
+   ]
+  },
+  "due_before_created": {
+   "count": 0,
+   "pct": 0.0,
+   "examples": []
+  },
+  "resolution_update_before_created": {
+   "count": 72731,
+   "pct": 2.255,
+   "examples": [
+    {
+     "unique_key": "56413194",
+     "created_date": "2023-01-01T00:16:58.000",
+     "resolution_action_updated_date": "2023-01-01T00:00:00.000",
+     "agency": "HPD"
+    },
+    {
+     "unique_key": "56413889",
+     "created_date": "2023-01-01T00:16:58.000",
+     "resolution_action_updated_date": "2023-01-01T00:00:00.000",
+     "agency": "HPD"
+    },
+    {
+     "unique_key": "56414058",
+     "created_date": "2023-01-01T00:16:58.000",
+     "resolution_action_updated_date": "2023-01-01T00:00:00.000",
+     "agency": "HPD"
+    }
+   ]
+  },
+  "missing_coordinates": {
+   "count": 48579,
+   "pct": 1.506,
+   "examples": [
+    {
+     "unique_key": "56418774",
+     "agency": "NYPD",
+     "complaint_type": "Illegal Fireworks",
+     "incident_zip": "11220",
+     "borough": "BROOKLYN"
+    },
+    {
+     "unique_key": "56412433",
+     "agency": "DOT",
+     "complaint_type": "Traffic Signal Condition",
+     "incident_zip": null,
+     "borough": "BROOKLYN"
+    },
+    {
+     "unique_key": "56417817",
+     "agency": "NYPD",
+     "complaint_type": "Illegal Fireworks",
+     "incident_zip": "10309",
+     "borough": "STATEN ISLAND"
+    }
+   ]
+  },
+  "coordinates_outside_nyc_box": {
+   "count": 0,
+   "pct": 0.0,
+   "examples": []
+  },
+  "lat_lon_vs_state_plane_disagree": {
+   "count": 0,
+   "pct": 0.0,
+   "examples": [],
+   "note": "More than 3000 feet from a linear fit."
+  },
+  "missing_zip": {
+   "count": 38520,
+   "pct": 1.195,
+   "examples": [
+    {
+     "unique_key": "56412433",
+     "agency": "DOT",
+     "complaint_type": "Traffic Signal Condition",
+     "borough": "BROOKLYN"
+    },
+    {
+     "unique_key": "56408061",
+     "agency": "DOT",
+     "complaint_type": "Traffic Signal Condition",
+     "borough": "BROOKLYN"
+    },
+    {
+     "unique_key": "56413120",
+     "agency": "NYPD",
+     "complaint_type": "Panhandling",
+     "borough": "MANHATTAN"
+    }
+   ]
+  },
+  "invalid_zip": {
+   "count": 223,
+   "pct": 0.007,
+   "examples": [
+    {
+     "unique_key": "56460952",
+     "incident_zip": "07740",
+     "borough": "Unspecified",
+     "agency": "DCWP"
+    },
+    {
+     "unique_key": "56485385",
+     "incident_zip": "11702",
+     "borough": "Unspecified",
+     "agency": "DCWP"
+    },
+    {
+     "unique_key": "56482573",
+     "incident_zip": "07071",
+     "borough": "Unspecified",
+     "agency": "DCWP"
+    }
+   ],
+   "note": "Not a 5-digit NYC-range ZIP. Some are real addresses outside the city."
+  },
+  "unspecified_borough": {
+   "count": 5994,
+   "pct": 0.186,
+   "examples": [
+    {
+     "unique_key": "56414169",
+     "borough": "Unspecified",
+     "incident_zip": null,
+     "agency": "DOT"
+    },
+    {
+     "unique_key": "56416657",
+     "borough": "Unspecified",
+     "incident_zip": null,
+     "agency": "DOT"
+    },
+    {
+     "unique_key": "56420723",
+     "borough": "Unspecified",
+     "incident_zip": null,
+     "agency": "NYPD"
+    }
+   ]
+  },
+  "zip_borough_inconsistent": {
+   "count": 1614,
+   "pct": 0.05,
+   "examples": [
+    {
+     "unique_key": "56413505",
+     "incident_zip": "10463",
+     "borough": "MANHATTAN",
+     "agency": "NYPD"
+    },
+    {
+     "unique_key": "56425603",
+     "incident_zip": "10463",
+     "borough": "MANHATTAN",
+     "agency": "HPD"
+    },
+    {
+     "unique_key": "56423924",
+     "incident_zip": "10463",
+     "borough": "MANHATTAN",
+     "agency": "HPD"
+    }
+   ],
+   "note": "Borough differs from one that holds at least 90% of that ZIP's rows."
+  },
+  "near_duplicates": {
+   "count": 156701,
+   "pct": 4.859,
+   "examples": [
+    {
+     "unique_key": "56417235",
+     "created_date": "2023-01-01T00:07:26.000",
+     "complaint_type": "Noise - Residential",
+     "descriptor": "Loud Music/Party",
+     "agency": "NYPD"
+    },
+    {
+     "unique_key": "56417140",
+     "created_date": "2023-01-01T00:07:44.000",
+     "complaint_type": "Noise - Residential",
+     "descriptor": "Loud Music/Party",
+     "agency": "NYPD"
+    },
+    {
+     "unique_key": "56414067",
+     "created_date": "2023-01-01T00:08:00.000",
+     "complaint_type": "Noise - Street/Sidewalk",
+     "descriptor": "Loud Music/Party",
+     "agency": "NYPD"
+    }
+   ],
+   "note": "Same address, complaint and descriptor within 300s. Many are separate callers about one incident, which is why this signal alone cannot be a hard rule."
+  },
+  "created_exactly_at_midnight": {
+   "count": 2439,
+   "pct": 0.076,
+   "examples": [
+    {
+     "unique_key": "56416396",
+     "created_date": "2023-01-01T00:00:00.000",
+     "agency": "DOHMH",
+     "complaint_type": "Food Poisoning"
+    },
+    {
+     "unique_key": "56425635",
+     "created_date": "2023-01-02T00:00:00.000",
+     "agency": "DOHMH",
+     "complaint_type": "Food Poisoning"
+    },
+    {
+     "unique_key": "56422754",
+     "created_date": "2023-01-03T00:00:00.000",
+     "agency": "DSNY",
+     "complaint_type": "Derelict Vehicles"
+    }
+   ],
+   "note": "One minute in 1,440 would be about 0.07% if times were real, so a higher share suggests date-only timestamps.",
+   "top_agencies": {
+    "DOHMH": 2362,
+    "DOT": 25,
+    "NYPD": 25,
+    "DSNY": 22,
+    "HPD": 3
+   }
+  },
+  "closed_status_pending_text_candidates": {
+   "count": 71893,
+   "pct": 2.229,
+   "examples": [
+    {
+     "unique_key": "56417406",
+     "status": "Closed",
+     "resolution_description": "The complaint you filed is a duplicate of a condition already reported by another tenant for a building-wide condition. The original complaint is still open. HPD may attempt to contact you to verify the correction of the condition or may conduct an inspection of your unit if the original complainant is not available for verification.",
+     "agency": "HPD"
+    },
+    {
+     "unique_key": "56419100",
+     "status": "Closed",
+     "resolution_description": "The complaint you filed is a duplicate of a condition already reported by another tenant for a building-wide condition. The original complaint is still open. HPD may attempt to contact you to verify the correction of the condition or may conduct an inspection of your unit if the original complainant is not available for verification.",
+     "agency": "HPD"
+    },
+    {
+     "unique_key": "56419142",
+     "status": "Closed",
+     "resolution_description": "The complaint you filed is a duplicate of a condition already reported by another tenant for a building-wide condition. The original complaint is still open. HPD may attempt to contact you to verify the correction of the condition or may conduct an inspection of your unit if the original complainant is not available for verification.",
+     "agency": "HPD"
+    }
+   ],
+   "note": "Keyword candidates, not confirmed contradictions. Templated wording can match.",
+   "top_texts": {
+    "The complaint you filed is a duplicate of a condition already reported by another tenant for a building-wide condition. The original complaint is still open. HPD may attempt to contact you to verify the correction of the condition or may conduct an inspection of your unit if the original complainant is not available for verification.": 65660,
+    "The following complaint conditions are still open. HPD may attempt to contact you to verify the correction of the condition or may conduct an inspection.": 3629,
+    "The Department of Health and Mental Hygiene has determined that the reported incident is isolated.  The establishment will be inspected according to its normal schedule for sanitary inspections.": 1495,
+    "Work to correct the reported condition is under review for a future capital project.": 516,
+    "A representative from the Taxi and Limousine Commission (TLC) called and left a message for you and emailed you but has not been able to get in touch with you to confirm the details of your complaint. As a result, the TLC has closed your complaint. If you would like to have your complaint reopened, please call [PHONE].": 509
+   }
+  },
+  "open_status_done_text_candidates": {
+   "count": 7,
+   "pct": 0.0,
+   "examples": [
+    {
+     "unique_key": "56717517",
+     "status": "Open",
+     "resolution_description": "The Department of Housing Preservation and Development inspected the following conditions. No violations were issued. The complaint has been closed.",
+     "agency": "HPD"
+    },
+    {
+     "unique_key": "56754360",
+     "status": "Open",
+     "resolution_description": "The Department of Housing Preservation and Development inspected the following conditions. No violations were issued. The complaint has been closed.",
+     "agency": "HPD"
+    },
+    {
+     "unique_key": "56862186",
+     "status": "Open",
+     "resolution_description": "The Department of Housing Preservation and Development inspected the following conditions. No violations were issued. The complaint has been closed.",
+     "agency": "HPD"
+    }
+   ],
+   "note": "Keyword candidates, not confirmed contradictions. Templated wording can match.",
+   "top_texts": {
+    "The Department of Housing Preservation and Development inspected the following conditions. No violations were issued. The complaint has been closed.": 5,
+    "The Department of Sanitation (DSNY) found an open Service Request already exists for the same location.   DSNY's system can't accept more than one complaint per address at a time. Your Service Request has been closed. DSNY will address the Service Request that was filed previously.  If you filed that Service Request, you can get the status with your Service Request number at nyc.gov/311 or by calling 311.  If you didn't file it, you can get the status by calling DSNY at [PHONE].": 2
+   }
+  },
+  "pii_like_strings": {
+   "resolution_description:email": {
+    "count": 4621,
+    "pct": 0.143,
+    "examples": [
+     {
+      "unique_key": "56418215",
+      "resolution_description": "The NYC Health Department has responded to your service request. For inspection results, please call [PHONE] or email [EMAIL] to request an inspection report. This service request has been closed.",
+      "agency": "DOHMH"
+     },
+     {
+      "unique_key": "56414270",
+      "resolution_description": "The NYC Health Department has responded to your service request. For inspection results, please call [PHONE] or email [EMAIL] to request an inspection report. This service request has been closed.",
+      "agency": "DOHMH"
+     },
+     {
+      "unique_key": "56423320",
+      "resolution_description": "The NYC Health Department has responded to your service request. For inspection results, please call [PHONE] or email [EMAIL] to request an inspection report. This service request has been closed.",
+      "agency": "DOHMH"
+     }
+    ],
+    "note": "Pattern matches, masked here. A match may be a public agency phone number or email rather than personal data."
+   },
+   "resolution_description:phone": {
+    "count": 108678,
+    "pct": 3.37,
+    "examples": [
+     {
+      "unique_key": "56415422",
+      "resolution_description": "The Department of Environment Protection inspected your complaint but could not find the problem you reported. If the condition persists, please call 311 (or [PHONE] if calling from a non-New York City area code) with more detailed information to submit a new complaint.",
+      "agency": "DEP"
+     },
+     {
+      "unique_key": "56412618",
+      "resolution_description": "The Department of Buildings reviewed this complaint and closed it. If the problem still exists, please call 311 and file a new complaint. If you are outside of New York City, please call (212) NEW-YORK [PHONE]).",
+      "agency": "DOB"
+     },
+     {
+      "unique_key": "56414154",
+      "resolution_description": "The Department of Buildings attempted to investigate this complaint twice but could not gain access to the location. If the problem still exists, please call 311 and file a new complaint with additional access information. If you are outside of New York City, please call (212) NEW-YORK [PHONE]).",
+      "agency": "DOB"
+     }
+    ],
+    "note": "Pattern matches, masked here. A match may be a public agency phone number or email rather than personal data."
+   },
+   "resolution_description:name_cue": {
+    "count": 0,
+    "pct": 0.0,
+    "examples": [],
+    "note": "Pattern matches, masked here. A match may be a public agency phone number or email rather than personal data."
+   },
+   "descriptor:email": {
+    "count": 0,
+    "pct": 0.0,
+    "examples": [],
+    "note": "Pattern matches, masked here. A match may be a public agency phone number or email rather than personal data."
+   },
+   "descriptor:phone": {
+    "count": 0,
+    "pct": 0.0,
+    "examples": [],
+    "note": "Pattern matches, masked here. A match may be a public agency phone number or email rather than personal data."
+   },
+   "descriptor:name_cue": {
+    "count": 0,
+    "pct": 0.0,
+    "examples": [],
+    "note": "Pattern matches, masked here. A match may be a public agency phone number or email rather than personal data."
+   },
+   "incident_address:email": {
+    "count": 0,
+    "pct": 0.0,
+    "examples": [],
+    "note": "Pattern matches, masked here. A match may be a public agency phone number or email rather than personal data."
+   },
+   "incident_address:phone": {
+    "count": 0,
+    "pct": 0.0,
+    "examples": [],
+    "note": "Pattern matches, masked here. A match may be a public agency phone number or email rather than personal data."
+   },
+   "incident_address:name_cue": {
+    "count": 0,
+    "pct": 0.0,
+    "examples": [],
+    "note": "Pattern matches, masked here. A match may be a public agency phone number or email rather than personal data."
+   }
+  }
+ },
+ "duplicates": {
+  "duplicate_unique_key": 0,
+  "same_content_different_key": 2209
+ },
+ "casing_variants": {
+  "complaint_type": {
+   "groups": 13,
+   "rows": 708627,
+   "examples": {
+    "heat/hot water": {
+     "HEAT/HOT WATER": 229509,
+     "Heat/Hot Water": 1814
+    },
+    "unsanitary condition": {
+     "UNSANITARY CONDITION": 115439,
+     "Unsanitary Condition": 1263
+    },
+    "plumbing": {
+     "PLUMBING": 61344,
+     "Plumbing": 4799
+    },
+    "paint/plaster": {
+     "PAINT/PLASTER": 59207,
+     "Paint/Plaster": 2187
+    },
+    "water leak": {
+     "WATER LEAK": 43134,
+     "Water Leak": 3077
+    }
+   }
+  },
+  "descriptor": {
+   "groups": 42,
+   "rows": 648854,
+   "examples": {
+    "entire building": {
+     "ENTIRE BUILDING": 152172,
+     "Entire Building": 1254
+    },
+    "apartment only": {
+     "APARTMENT ONLY": 77337,
+     "Apartment Only": 559
+    },
+    "pests": {
+     "PESTS": 61083,
+     "Pests": 4
+    },
+    "mold": {
+     "MOLD": 32449,
+     "Mold": 1257
+    },
+    "wall": {
+     "WALL": 28587,
+     "Wall": 852
+    }
+   }
+  },
+  "agency": {
+   "groups": 0,
+   "rows": 0,
+   "examples": {}
+  },
+  "city": {
+   "groups": 34,
+   "rows": 2623311,
+   "examples": {
+    "brooklyn": {
+     "BROOKLYN": 960745,
+     "Brooklyn": 21,
+     "brooklyn": 1
+    },
+    "new york": {
+     "NEW YORK": 618333,
+     "New York": 10,
+     "new york": 1
+    },
+    "bronx": {
+     "BRONX": 605642,
+     "Bronx": 9,
+     "bronx": 3
+    },
+    "staten island": {
+     "STATEN ISLAND": 122023,
+     "staten island": 4
+    },
+    "jamaica": {
+     "JAMAICA": 73131,
+     "Jamaica": 1
+    }
+   }
+  }
+ },
+ "placeholder_values": {
+  "incident_zip": {
+   "count": 4,
+   "values": {
+    "00000": 1,
+    "N/A": 1,
+    "na": 1,
+    "NA": 1
+   }
+  },
+  "descriptor": {
+   "count": 58550,
+   "values": {
+    "N/A": 58550
+   }
+  },
+  "city": {
+   "count": 3,
+   "values": {
+    "na": 1,
+    "unknown": 1,
+    "N/A": 1
+   }
+  },
+  "incident_address": {
+   "count": 0,
+   "values": {}
+  },
+  "borough": {
+   "count": 5994,
+   "values": {
+    "Unspecified": 5994
+   }
+  },
+  "agency": {
+   "count": 0,
+   "values": {}
+  }
+ },
+ "pii_triage": {
+  "phone": {
+   "rows_with_match": 108678,
+   "repeated_contacts": 26,
+   "rows_on_repeated_contacts": 108538,
+   "top_repeated_contacts": {
+    "2126399675": 96713,
+    "2126761600": 4068,
+    "2124874110": 3947,
+    "6466326101": 1439,
+    "7183915617": 509
+   },
+   "rare_contacts": 25,
+   "rows_on_rare_contacts": 140,
+   "note": "Contacts on at least 20 rows are treated as published service lines. Rare ones are candidates for manual review, not confirmed personal data."
+  },
+  "email": {
+   "rows_with_match": 4621,
+   "repeated_contacts": 2,
+   "rows_on_repeated_contacts": 4611,
+   "top_repeated_contacts": {
+    "infobfscs@health.nyc.gov": 4068,
+    "customerservice@dsny.nyc.gov.â": 543
+   },
+   "rare_contacts": 1,
+   "rows_on_rare_contacts": 10,
+   "note": "Contacts on at least 20 rows are treated as published service lines. Rare ones are candidates for manual review, not confirmed personal data."
+  }
+ }
+}

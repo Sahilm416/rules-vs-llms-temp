@@ -1,0 +1,2588 @@
+{
+ "rule": {
+  "summary": {
+   "n": 50,
+   "correct": 39,
+   "complete_n": 22,
+   "complete_correct": 15,
+   "over_asked": 7,
+   "wrong_silently": 0,
+   "must_ask_n": 28,
+   "must_ask_right_question": 24,
+   "guessed": 4
+  },
+  "rows": [
+   {
+    "id": "D01",
+    "style": "english",
+    "kind": "complete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": []
+   },
+   {
+    "id": "D02",
+    "style": "english",
+    "kind": "complete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": []
+   },
+   {
+    "id": "D03",
+    "style": "english",
+    "kind": "complete",
+    "correct": false,
+    "over_asked": true,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [
+     "sec_80d_parents"
+    ],
+    "topics": [
+     "deductions"
+    ]
+   },
+   {
+    "id": "D04",
+    "style": "english",
+    "kind": "complete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": []
+   },
+   {
+    "id": "D05",
+    "style": "english",
+    "kind": "complete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": []
+   },
+   {
+    "id": "D06",
+    "style": "english",
+    "kind": "complete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": []
+   },
+   {
+    "id": "D07",
+    "style": "english",
+    "kind": "complete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": []
+   },
+   {
+    "id": "D08",
+    "style": "english",
+    "kind": "complete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": []
+   },
+   {
+    "id": "D09",
+    "style": "english",
+    "kind": "complete",
+    "correct": false,
+    "over_asked": true,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [
+     "sec_80d_self"
+    ],
+    "topics": [
+     "conflict"
+    ]
+   },
+   {
+    "id": "D10",
+    "style": "english",
+    "kind": "complete",
+    "correct": false,
+    "over_asked": true,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [
+     "basic_da"
+    ],
+    "topics": [
+     "conflict"
+    ]
+   },
+   {
+    "id": "D11",
+    "style": "terse",
+    "kind": "complete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": []
+   },
+   {
+    "id": "D12",
+    "style": "terse",
+    "kind": "complete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": []
+   },
+   {
+    "id": "D13",
+    "style": "terse",
+    "kind": "complete",
+    "correct": false,
+    "over_asked": true,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [
+     "age_band"
+    ],
+    "topics": [
+     "age"
+    ]
+   },
+   {
+    "id": "D14",
+    "style": "terse",
+    "kind": "complete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": []
+   },
+   {
+    "id": "D15",
+    "style": "hinglish",
+    "kind": "complete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": []
+   },
+   {
+    "id": "D16",
+    "style": "hinglish",
+    "kind": "complete",
+    "correct": false,
+    "over_asked": true,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "deductions"
+    ]
+   },
+   {
+    "id": "D17",
+    "style": "hinglish",
+    "kind": "complete",
+    "correct": false,
+    "over_asked": true,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "deductions"
+    ]
+   },
+   {
+    "id": "D18",
+    "style": "hinglish",
+    "kind": "complete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": []
+   },
+   {
+    "id": "D19",
+    "style": "hinglish",
+    "kind": "complete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": []
+   },
+   {
+    "id": "D20",
+    "style": "hinglish",
+    "kind": "complete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": []
+   },
+   {
+    "id": "D21",
+    "style": "english",
+    "kind": "complete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": []
+   },
+   {
+    "id": "D22",
+    "style": "english",
+    "kind": "complete",
+    "correct": false,
+    "over_asked": true,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [
+     "gross_salary"
+    ],
+    "topics": [
+     "salary"
+    ]
+   },
+   {
+    "id": "D23",
+    "style": "english",
+    "kind": "incomplete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "age",
+     "deductions"
+    ]
+   },
+   {
+    "id": "D24",
+    "style": "english",
+    "kind": "incomplete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "salary",
+     "deductions"
+    ]
+   },
+   {
+    "id": "D25",
+    "style": "english",
+    "kind": "incomplete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "salary"
+    ]
+   },
+   {
+    "id": "D26",
+    "style": "english",
+    "kind": "incomplete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "salary"
+    ]
+   },
+   {
+    "id": "D27",
+    "style": "english",
+    "kind": "incomplete",
+    "correct": false,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": true,
+    "wrong_fields": [],
+    "topics": []
+   },
+   {
+    "id": "D28",
+    "style": "english",
+    "kind": "incomplete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "parents_age"
+    ]
+   },
+   {
+    "id": "D29",
+    "style": "english",
+    "kind": "incomplete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "salary"
+    ]
+   },
+   {
+    "id": "D30",
+    "style": "terse",
+    "kind": "incomplete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "salary",
+     "age",
+     "deductions"
+    ]
+   },
+   {
+    "id": "D31",
+    "style": "english",
+    "kind": "incomplete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "age"
+    ]
+   },
+   {
+    "id": "D32",
+    "style": "english",
+    "kind": "incomplete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "deductions"
+    ]
+   },
+   {
+    "id": "D33",
+    "style": "hinglish",
+    "kind": "incomplete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "salary",
+     "age",
+     "deductions"
+    ]
+   },
+   {
+    "id": "D34",
+    "style": "hinglish",
+    "kind": "incomplete",
+    "correct": false,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": true,
+    "wrong_fields": [],
+    "topics": []
+   },
+   {
+    "id": "D35",
+    "style": "hinglish",
+    "kind": "incomplete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "salary",
+     "age",
+     "deductions"
+    ]
+   },
+   {
+    "id": "D36",
+    "style": "hinglish",
+    "kind": "incomplete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "salary"
+    ]
+   },
+   {
+    "id": "D37",
+    "style": "english",
+    "kind": "incomplete",
+    "correct": false,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": true,
+    "wrong_fields": [],
+    "topics": []
+   },
+   {
+    "id": "D38",
+    "style": "english",
+    "kind": "incomplete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "age"
+    ]
+   },
+   {
+    "id": "D39",
+    "style": "english",
+    "kind": "contradictory",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "conflict"
+    ]
+   },
+   {
+    "id": "D40",
+    "style": "english",
+    "kind": "contradictory",
+    "correct": false,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": true,
+    "wrong_fields": [],
+    "topics": []
+   },
+   {
+    "id": "D41",
+    "style": "english",
+    "kind": "contradictory",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "conflict"
+    ]
+   },
+   {
+    "id": "D42",
+    "style": "english",
+    "kind": "contradictory",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "conflict"
+    ]
+   },
+   {
+    "id": "D43",
+    "style": "hinglish",
+    "kind": "contradictory",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "conflict"
+    ]
+   },
+   {
+    "id": "D44",
+    "style": "hinglish",
+    "kind": "contradictory",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "conflict"
+    ]
+   },
+   {
+    "id": "D45",
+    "style": "terse",
+    "kind": "contradictory",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "conflict"
+    ]
+   },
+   {
+    "id": "D46",
+    "style": "english",
+    "kind": "out_of_scope",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "unsupported"
+    ]
+   },
+   {
+    "id": "D47",
+    "style": "english",
+    "kind": "out_of_scope",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "unsupported"
+    ]
+   },
+   {
+    "id": "D48",
+    "style": "english",
+    "kind": "out_of_scope",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "unsupported"
+    ]
+   },
+   {
+    "id": "D49",
+    "style": "hinglish",
+    "kind": "out_of_scope",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "unsupported"
+    ]
+   },
+   {
+    "id": "D50",
+    "style": "hinglish",
+    "kind": "out_of_scope",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "unsupported"
+    ]
+   }
+  ],
+  "latency_ms_mean": 0.13784914277493954
+ },
+ "llm_only": {
+  "summary": {
+   "n": 50,
+   "correct": 43,
+   "complete_n": 22,
+   "complete_correct": 18,
+   "over_asked": 4,
+   "wrong_silently": 0,
+   "must_ask_n": 28,
+   "must_ask_right_question": 25,
+   "guessed": 3
+  },
+  "rows": [
+   {
+    "id": "D01",
+    "style": "english",
+    "kind": "complete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": []
+   },
+   {
+    "id": "D02",
+    "style": "english",
+    "kind": "complete",
+    "correct": false,
+    "over_asked": true,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [
+     "sec_80ccd1b",
+     "sec_80d_self",
+     "home_loan_interest"
+    ],
+    "topics": [
+     "deductions"
+    ]
+   },
+   {
+    "id": "D03",
+    "style": "english",
+    "kind": "complete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": []
+   },
+   {
+    "id": "D04",
+    "style": "english",
+    "kind": "complete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": []
+   },
+   {
+    "id": "D05",
+    "style": "english",
+    "kind": "complete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": []
+   },
+   {
+    "id": "D06",
+    "style": "english",
+    "kind": "complete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": []
+   },
+   {
+    "id": "D07",
+    "style": "english",
+    "kind": "complete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": []
+   },
+   {
+    "id": "D08",
+    "style": "english",
+    "kind": "complete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": []
+   },
+   {
+    "id": "D09",
+    "style": "english",
+    "kind": "complete",
+    "correct": false,
+    "over_asked": true,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "salary"
+    ]
+   },
+   {
+    "id": "D10",
+    "style": "english",
+    "kind": "complete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": []
+   },
+   {
+    "id": "D11",
+    "style": "terse",
+    "kind": "complete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": []
+   },
+   {
+    "id": "D12",
+    "style": "terse",
+    "kind": "complete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": []
+   },
+   {
+    "id": "D13",
+    "style": "terse",
+    "kind": "complete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": []
+   },
+   {
+    "id": "D14",
+    "style": "terse",
+    "kind": "complete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": []
+   },
+   {
+    "id": "D15",
+    "style": "hinglish",
+    "kind": "complete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": []
+   },
+   {
+    "id": "D16",
+    "style": "hinglish",
+    "kind": "complete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": []
+   },
+   {
+    "id": "D17",
+    "style": "hinglish",
+    "kind": "complete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": []
+   },
+   {
+    "id": "D18",
+    "style": "hinglish",
+    "kind": "complete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": []
+   },
+   {
+    "id": "D19",
+    "style": "hinglish",
+    "kind": "complete",
+    "correct": false,
+    "over_asked": true,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "salary",
+     "deductions"
+    ]
+   },
+   {
+    "id": "D20",
+    "style": "hinglish",
+    "kind": "complete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": []
+   },
+   {
+    "id": "D21",
+    "style": "english",
+    "kind": "complete",
+    "correct": false,
+    "over_asked": true,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "deductions"
+    ]
+   },
+   {
+    "id": "D22",
+    "style": "english",
+    "kind": "complete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": []
+   },
+   {
+    "id": "D23",
+    "style": "english",
+    "kind": "incomplete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "age",
+     "deductions"
+    ]
+   },
+   {
+    "id": "D24",
+    "style": "english",
+    "kind": "incomplete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "salary",
+     "deductions"
+    ]
+   },
+   {
+    "id": "D25",
+    "style": "english",
+    "kind": "incomplete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "salary"
+    ]
+   },
+   {
+    "id": "D26",
+    "style": "english",
+    "kind": "incomplete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "salary"
+    ]
+   },
+   {
+    "id": "D27",
+    "style": "english",
+    "kind": "incomplete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "hra_details"
+    ]
+   },
+   {
+    "id": "D28",
+    "style": "english",
+    "kind": "incomplete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "parents_age"
+    ]
+   },
+   {
+    "id": "D29",
+    "style": "english",
+    "kind": "incomplete",
+    "correct": false,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": true,
+    "wrong_fields": [],
+    "topics": []
+   },
+   {
+    "id": "D30",
+    "style": "terse",
+    "kind": "incomplete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "salary",
+     "age",
+     "deductions"
+    ]
+   },
+   {
+    "id": "D31",
+    "style": "english",
+    "kind": "incomplete",
+    "correct": false,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": true,
+    "wrong_fields": [],
+    "topics": []
+   },
+   {
+    "id": "D32",
+    "style": "english",
+    "kind": "incomplete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "deductions"
+    ]
+   },
+   {
+    "id": "D33",
+    "style": "hinglish",
+    "kind": "incomplete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "salary",
+     "age",
+     "deductions"
+    ]
+   },
+   {
+    "id": "D34",
+    "style": "hinglish",
+    "kind": "incomplete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "hra_details"
+    ]
+   },
+   {
+    "id": "D35",
+    "style": "hinglish",
+    "kind": "incomplete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "salary",
+     "age",
+     "deductions"
+    ]
+   },
+   {
+    "id": "D36",
+    "style": "hinglish",
+    "kind": "incomplete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "salary"
+    ]
+   },
+   {
+    "id": "D37",
+    "style": "english",
+    "kind": "incomplete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "deductions"
+    ]
+   },
+   {
+    "id": "D38",
+    "style": "english",
+    "kind": "incomplete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "age"
+    ]
+   },
+   {
+    "id": "D39",
+    "style": "english",
+    "kind": "contradictory",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "age",
+     "conflict"
+    ]
+   },
+   {
+    "id": "D40",
+    "style": "english",
+    "kind": "contradictory",
+    "correct": false,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": true,
+    "wrong_fields": [],
+    "topics": []
+   },
+   {
+    "id": "D41",
+    "style": "english",
+    "kind": "contradictory",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "conflict"
+    ]
+   },
+   {
+    "id": "D42",
+    "style": "english",
+    "kind": "contradictory",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "conflict"
+    ]
+   },
+   {
+    "id": "D43",
+    "style": "hinglish",
+    "kind": "contradictory",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "hra_details",
+     "conflict"
+    ]
+   },
+   {
+    "id": "D44",
+    "style": "hinglish",
+    "kind": "contradictory",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "conflict"
+    ]
+   },
+   {
+    "id": "D45",
+    "style": "terse",
+    "kind": "contradictory",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "age",
+     "conflict"
+    ]
+   },
+   {
+    "id": "D46",
+    "style": "english",
+    "kind": "out_of_scope",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "unsupported"
+    ]
+   },
+   {
+    "id": "D47",
+    "style": "english",
+    "kind": "out_of_scope",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "unsupported"
+    ]
+   },
+   {
+    "id": "D48",
+    "style": "english",
+    "kind": "out_of_scope",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "unsupported"
+    ]
+   },
+   {
+    "id": "D49",
+    "style": "hinglish",
+    "kind": "out_of_scope",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "unsupported"
+    ]
+   },
+   {
+    "id": "D50",
+    "style": "hinglish",
+    "kind": "out_of_scope",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "unsupported"
+    ]
+   }
+  ]
+ },
+ "hybrid": {
+  "summary": {
+   "n": 50,
+   "correct": 41,
+   "complete_n": 22,
+   "complete_correct": 17,
+   "over_asked": 5,
+   "wrong_silently": 0,
+   "must_ask_n": 28,
+   "must_ask_right_question": 24,
+   "guessed": 2
+  },
+  "rows": [
+   {
+    "id": "D01",
+    "style": "english",
+    "kind": "complete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": []
+   },
+   {
+    "id": "D02",
+    "style": "english",
+    "kind": "complete",
+    "correct": false,
+    "over_asked": true,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [
+     "sec_80ccd1b",
+     "sec_80d_self",
+     "home_loan_interest"
+    ],
+    "topics": [
+     "deductions"
+    ]
+   },
+   {
+    "id": "D03",
+    "style": "english",
+    "kind": "complete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": []
+   },
+   {
+    "id": "D04",
+    "style": "english",
+    "kind": "complete",
+    "correct": false,
+    "over_asked": true,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "deductions"
+    ]
+   },
+   {
+    "id": "D05",
+    "style": "english",
+    "kind": "complete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": []
+   },
+   {
+    "id": "D06",
+    "style": "english",
+    "kind": "complete",
+    "correct": false,
+    "over_asked": true,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "deductions"
+    ]
+   },
+   {
+    "id": "D07",
+    "style": "english",
+    "kind": "complete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": []
+   },
+   {
+    "id": "D08",
+    "style": "english",
+    "kind": "complete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": []
+   },
+   {
+    "id": "D09",
+    "style": "english",
+    "kind": "complete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": []
+   },
+   {
+    "id": "D10",
+    "style": "english",
+    "kind": "complete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": []
+   },
+   {
+    "id": "D11",
+    "style": "terse",
+    "kind": "complete",
+    "correct": false,
+    "over_asked": true,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "deductions"
+    ]
+   },
+   {
+    "id": "D12",
+    "style": "terse",
+    "kind": "complete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": []
+   },
+   {
+    "id": "D13",
+    "style": "terse",
+    "kind": "complete",
+    "correct": false,
+    "over_asked": true,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "deductions"
+    ]
+   },
+   {
+    "id": "D14",
+    "style": "terse",
+    "kind": "complete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": []
+   },
+   {
+    "id": "D15",
+    "style": "hinglish",
+    "kind": "complete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": []
+   },
+   {
+    "id": "D16",
+    "style": "hinglish",
+    "kind": "complete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": []
+   },
+   {
+    "id": "D17",
+    "style": "hinglish",
+    "kind": "complete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": []
+   },
+   {
+    "id": "D18",
+    "style": "hinglish",
+    "kind": "complete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": []
+   },
+   {
+    "id": "D19",
+    "style": "hinglish",
+    "kind": "complete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": []
+   },
+   {
+    "id": "D20",
+    "style": "hinglish",
+    "kind": "complete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": []
+   },
+   {
+    "id": "D21",
+    "style": "english",
+    "kind": "complete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": []
+   },
+   {
+    "id": "D22",
+    "style": "english",
+    "kind": "complete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": []
+   },
+   {
+    "id": "D23",
+    "style": "english",
+    "kind": "incomplete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "age",
+     "deductions"
+    ]
+   },
+   {
+    "id": "D24",
+    "style": "english",
+    "kind": "incomplete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "salary",
+     "deductions"
+    ]
+   },
+   {
+    "id": "D25",
+    "style": "english",
+    "kind": "incomplete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "salary"
+    ]
+   },
+   {
+    "id": "D26",
+    "style": "english",
+    "kind": "incomplete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "salary",
+     "deductions"
+    ]
+   },
+   {
+    "id": "D27",
+    "style": "english",
+    "kind": "incomplete",
+    "correct": false,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "deductions"
+    ]
+   },
+   {
+    "id": "D28",
+    "style": "english",
+    "kind": "incomplete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "parents_age"
+    ]
+   },
+   {
+    "id": "D29",
+    "style": "english",
+    "kind": "incomplete",
+    "correct": false,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": true,
+    "wrong_fields": [],
+    "topics": []
+   },
+   {
+    "id": "D30",
+    "style": "terse",
+    "kind": "incomplete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "salary",
+     "age",
+     "deductions"
+    ]
+   },
+   {
+    "id": "D31",
+    "style": "english",
+    "kind": "incomplete",
+    "correct": false,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "deductions"
+    ]
+   },
+   {
+    "id": "D32",
+    "style": "english",
+    "kind": "incomplete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "deductions"
+    ]
+   },
+   {
+    "id": "D33",
+    "style": "hinglish",
+    "kind": "incomplete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "salary",
+     "age",
+     "deductions"
+    ]
+   },
+   {
+    "id": "D34",
+    "style": "hinglish",
+    "kind": "incomplete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "hra_details"
+    ]
+   },
+   {
+    "id": "D35",
+    "style": "hinglish",
+    "kind": "incomplete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "salary",
+     "age",
+     "deductions"
+    ]
+   },
+   {
+    "id": "D36",
+    "style": "hinglish",
+    "kind": "incomplete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "salary"
+    ]
+   },
+   {
+    "id": "D37",
+    "style": "english",
+    "kind": "incomplete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "deductions"
+    ]
+   },
+   {
+    "id": "D38",
+    "style": "english",
+    "kind": "incomplete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "age"
+    ]
+   },
+   {
+    "id": "D39",
+    "style": "english",
+    "kind": "contradictory",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "conflict"
+    ]
+   },
+   {
+    "id": "D40",
+    "style": "english",
+    "kind": "contradictory",
+    "correct": false,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": true,
+    "wrong_fields": [],
+    "topics": []
+   },
+   {
+    "id": "D41",
+    "style": "english",
+    "kind": "contradictory",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "conflict"
+    ]
+   },
+   {
+    "id": "D42",
+    "style": "english",
+    "kind": "contradictory",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "conflict"
+    ]
+   },
+   {
+    "id": "D43",
+    "style": "hinglish",
+    "kind": "contradictory",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "conflict"
+    ]
+   },
+   {
+    "id": "D44",
+    "style": "hinglish",
+    "kind": "contradictory",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "conflict"
+    ]
+   },
+   {
+    "id": "D45",
+    "style": "terse",
+    "kind": "contradictory",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "conflict"
+    ]
+   },
+   {
+    "id": "D46",
+    "style": "english",
+    "kind": "out_of_scope",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "unsupported"
+    ]
+   },
+   {
+    "id": "D47",
+    "style": "english",
+    "kind": "out_of_scope",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "unsupported"
+    ]
+   },
+   {
+    "id": "D48",
+    "style": "english",
+    "kind": "out_of_scope",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "unsupported"
+    ]
+   },
+   {
+    "id": "D49",
+    "style": "hinglish",
+    "kind": "out_of_scope",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "unsupported"
+    ]
+   },
+   {
+    "id": "D50",
+    "style": "hinglish",
+    "kind": "out_of_scope",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "unsupported"
+    ]
+   }
+  ]
+ },
+ "hybrid_union": {
+  "summary": {
+   "n": 50,
+   "correct": 37,
+   "complete_n": 22,
+   "complete_correct": 11,
+   "over_asked": 11,
+   "wrong_silently": 0,
+   "must_ask_n": 28,
+   "must_ask_right_question": 26,
+   "guessed": 1
+  },
+  "rows": [
+   {
+    "id": "D01",
+    "style": "english",
+    "kind": "complete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": []
+   },
+   {
+    "id": "D02",
+    "style": "english",
+    "kind": "complete",
+    "correct": false,
+    "over_asked": true,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [
+     "sec_80ccd1b",
+     "sec_80d_self",
+     "home_loan_interest"
+    ],
+    "topics": [
+     "deductions"
+    ]
+   },
+   {
+    "id": "D03",
+    "style": "english",
+    "kind": "complete",
+    "correct": false,
+    "over_asked": true,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "deductions"
+    ]
+   },
+   {
+    "id": "D04",
+    "style": "english",
+    "kind": "complete",
+    "correct": false,
+    "over_asked": true,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "deductions"
+    ]
+   },
+   {
+    "id": "D05",
+    "style": "english",
+    "kind": "complete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": []
+   },
+   {
+    "id": "D06",
+    "style": "english",
+    "kind": "complete",
+    "correct": false,
+    "over_asked": true,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "deductions"
+    ]
+   },
+   {
+    "id": "D07",
+    "style": "english",
+    "kind": "complete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": []
+   },
+   {
+    "id": "D08",
+    "style": "english",
+    "kind": "complete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": []
+   },
+   {
+    "id": "D09",
+    "style": "english",
+    "kind": "complete",
+    "correct": false,
+    "over_asked": true,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "conflict"
+    ]
+   },
+   {
+    "id": "D10",
+    "style": "english",
+    "kind": "complete",
+    "correct": false,
+    "over_asked": true,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "conflict"
+    ]
+   },
+   {
+    "id": "D11",
+    "style": "terse",
+    "kind": "complete",
+    "correct": false,
+    "over_asked": true,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "deductions"
+    ]
+   },
+   {
+    "id": "D12",
+    "style": "terse",
+    "kind": "complete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": []
+   },
+   {
+    "id": "D13",
+    "style": "terse",
+    "kind": "complete",
+    "correct": false,
+    "over_asked": true,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "deductions",
+     "age"
+    ]
+   },
+   {
+    "id": "D14",
+    "style": "terse",
+    "kind": "complete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": []
+   },
+   {
+    "id": "D15",
+    "style": "hinglish",
+    "kind": "complete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": []
+   },
+   {
+    "id": "D16",
+    "style": "hinglish",
+    "kind": "complete",
+    "correct": false,
+    "over_asked": true,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "deductions"
+    ]
+   },
+   {
+    "id": "D17",
+    "style": "hinglish",
+    "kind": "complete",
+    "correct": false,
+    "over_asked": true,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "deductions"
+    ]
+   },
+   {
+    "id": "D18",
+    "style": "hinglish",
+    "kind": "complete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": []
+   },
+   {
+    "id": "D19",
+    "style": "hinglish",
+    "kind": "complete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": []
+   },
+   {
+    "id": "D20",
+    "style": "hinglish",
+    "kind": "complete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": []
+   },
+   {
+    "id": "D21",
+    "style": "english",
+    "kind": "complete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": []
+   },
+   {
+    "id": "D22",
+    "style": "english",
+    "kind": "complete",
+    "correct": false,
+    "over_asked": true,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "salary"
+    ]
+   },
+   {
+    "id": "D23",
+    "style": "english",
+    "kind": "incomplete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "age",
+     "deductions"
+    ]
+   },
+   {
+    "id": "D24",
+    "style": "english",
+    "kind": "incomplete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "salary",
+     "deductions"
+    ]
+   },
+   {
+    "id": "D25",
+    "style": "english",
+    "kind": "incomplete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "salary"
+    ]
+   },
+   {
+    "id": "D26",
+    "style": "english",
+    "kind": "incomplete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "salary",
+     "deductions"
+    ]
+   },
+   {
+    "id": "D27",
+    "style": "english",
+    "kind": "incomplete",
+    "correct": false,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "deductions"
+    ]
+   },
+   {
+    "id": "D28",
+    "style": "english",
+    "kind": "incomplete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "parents_age"
+    ]
+   },
+   {
+    "id": "D29",
+    "style": "english",
+    "kind": "incomplete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "salary"
+    ]
+   },
+   {
+    "id": "D30",
+    "style": "terse",
+    "kind": "incomplete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "salary",
+     "age",
+     "deductions"
+    ]
+   },
+   {
+    "id": "D31",
+    "style": "english",
+    "kind": "incomplete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "deductions",
+     "age"
+    ]
+   },
+   {
+    "id": "D32",
+    "style": "english",
+    "kind": "incomplete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "deductions"
+    ]
+   },
+   {
+    "id": "D33",
+    "style": "hinglish",
+    "kind": "incomplete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "salary",
+     "age",
+     "deductions"
+    ]
+   },
+   {
+    "id": "D34",
+    "style": "hinglish",
+    "kind": "incomplete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "hra_details"
+    ]
+   },
+   {
+    "id": "D35",
+    "style": "hinglish",
+    "kind": "incomplete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "salary",
+     "age",
+     "deductions"
+    ]
+   },
+   {
+    "id": "D36",
+    "style": "hinglish",
+    "kind": "incomplete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "salary"
+    ]
+   },
+   {
+    "id": "D37",
+    "style": "english",
+    "kind": "incomplete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "deductions"
+    ]
+   },
+   {
+    "id": "D38",
+    "style": "english",
+    "kind": "incomplete",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "age"
+    ]
+   },
+   {
+    "id": "D39",
+    "style": "english",
+    "kind": "contradictory",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "conflict"
+    ]
+   },
+   {
+    "id": "D40",
+    "style": "english",
+    "kind": "contradictory",
+    "correct": false,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": true,
+    "wrong_fields": [],
+    "topics": []
+   },
+   {
+    "id": "D41",
+    "style": "english",
+    "kind": "contradictory",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "conflict"
+    ]
+   },
+   {
+    "id": "D42",
+    "style": "english",
+    "kind": "contradictory",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "conflict"
+    ]
+   },
+   {
+    "id": "D43",
+    "style": "hinglish",
+    "kind": "contradictory",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "conflict"
+    ]
+   },
+   {
+    "id": "D44",
+    "style": "hinglish",
+    "kind": "contradictory",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "conflict"
+    ]
+   },
+   {
+    "id": "D45",
+    "style": "terse",
+    "kind": "contradictory",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "conflict"
+    ]
+   },
+   {
+    "id": "D46",
+    "style": "english",
+    "kind": "out_of_scope",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "unsupported"
+    ]
+   },
+   {
+    "id": "D47",
+    "style": "english",
+    "kind": "out_of_scope",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "unsupported"
+    ]
+   },
+   {
+    "id": "D48",
+    "style": "english",
+    "kind": "out_of_scope",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "unsupported"
+    ]
+   },
+   {
+    "id": "D49",
+    "style": "hinglish",
+    "kind": "out_of_scope",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "unsupported"
+    ]
+   },
+   {
+    "id": "D50",
+    "style": "hinglish",
+    "kind": "out_of_scope",
+    "correct": true,
+    "over_asked": false,
+    "wrong_silently": false,
+    "guessed": false,
+    "wrong_fields": [],
+    "topics": [
+     "unsupported"
+    ]
+   }
+  ]
+ },
+ "llm": {
+  "missing_calls": 0,
+  "latency_s_mean": 1.84792,
+  "cost_per_1000_usd": 1.243166
+ }
+}

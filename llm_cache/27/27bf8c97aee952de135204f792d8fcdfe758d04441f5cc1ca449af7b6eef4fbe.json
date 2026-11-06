@@ -1,0 +1,11 @@
+{
+ "tag": "dq-complaint_descriptor_mismatch",
+ "model": "gemini-3.5-flash-lite",
+ "attempt": 0,
+ "text": "{\n  \"flagged\": []\n}",
+ "finish_reason": "STOP",
+ "input_tokens": 1182,
+ "output_tokens": 10,
+ "latency_s": 0.987,
+ "recorded_at": "2026-11-06T21:07:27+0530"
+}
